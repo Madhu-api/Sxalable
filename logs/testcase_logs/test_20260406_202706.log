@@ -1,0 +1,108 @@
+2026-04-06 20:27:07 [INFO] ====== WebDriver manager ======
+2026-04-06 20:27:09 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-06 20:27:09 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-06 20:27:09 [INFO] Driver [C:\Users\madhusudhanan\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe] found in cache
+2026-04-06 20:27:10 [INFO] [STEP] Opening URL: https://stage.sxalable.io/
+2026-04-06 20:27:44 [INFO] [INFO] Opened URL: https://stage.sxalable.io/
+2026-04-06 20:27:46 [INFO] [STEP] Signing in...
+2026-04-06 20:27:46 [INFO] [STEP] Finding workspace button
+2026-04-06 20:27:46 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-06 20:27:46 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-06 20:27:46 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-06 20:27:46 [INFO] [SUCCESS] Located workspace button
+2026-04-06 20:27:46 [INFO] [STEP] Entering workspace name
+2026-04-06 20:27:46 [INFO] [SUCCESS] Workspace entered: automation0204211633
+2026-04-06 20:27:48 [INFO] [STEP] Clicking Next button
+2026-04-06 20:27:48 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-06 20:27:48 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-06 20:27:48 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-06 20:27:48 [INFO] [SUCCESS] Clicked Next button
+2026-04-06 20:27:48 [INFO] [STEP] Checking Sign in page URL...
+2026-04-06 20:27:48 [INFO] [STEP] Waiting for URL to contain: 'https://stage.sxalable.io/login'
+2026-04-06 20:27:49 [INFO] [SUCCESS] Reached target URL: https://stage.sxalable.io/login ✅
+2026-04-06 20:27:49 [INFO] [SUCCESS] Checked Sign in page URL: https://stage.sxalable.io/login
+2026-04-06 20:27:51 [INFO] [STEP] Entering email, password
+2026-04-06 20:27:51 [INFO] [STEP] Attempting to enter email...
+2026-04-06 20:27:51 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-06 20:27:51 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-06 20:27:51 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-06 20:27:53 [INFO] [SUCCESS] email entered ✅
+2026-04-06 20:27:55 [INFO] [STEP] Attempting to enter password...
+2026-04-06 20:27:55 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-06 20:27:55 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-06 20:27:56 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-06 20:27:58 [INFO] [SUCCESS] password entered ✅
+2026-04-06 20:28:00 [INFO] [SUCCESS] Entered email, password
+2026-04-06 20:28:02 [INFO] [STEP] locating and clicking Login button
+2026-04-06 20:28:02 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Login']")
+2026-04-06 20:28:02 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Login']")
+2026-04-06 20:28:02 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Login']")
+2026-04-06 20:28:02 [INFO] [SUCCESS] Clicked Login button...
+2026-04-06 20:28:04 [INFO] [STEP] Verifying Page navigated to OTP...
+2026-04-06 20:28:04 [INFO] [STEP] Waiting for URL to change from: https://stage.sxalable.io/login
+2026-04-06 20:28:05 [INFO] [SUCCESS] URL changed to: https://stage.sxalable.io/mfa ✅
+2026-04-06 20:28:05 [INFO] [STEP] finding 'Enter Code' on OTP page ✅
+2026-04-06 20:28:05 [INFO] [STEP] Waiting for text: 'Enter Code'
+2026-04-06 20:28:05 [INFO] [SUCCESS] Text 'Enter Code' found on page ✅
+2026-04-06 20:28:05 [INFO] [SUCCESS] 'Enter Code' found on OTP page ✅
+2026-04-06 20:28:07 [INFO] [STEP] Fetching OTP from DB...
+2026-04-06 20:28:07 [INFO] [STEP] Starting SSH tunnel (using default SSH config)
+2026-04-06 20:28:08 [INFO] Connected (version 2.0, client OpenSSH_8.2p1)
+2026-04-06 20:28:09 [INFO] Authentication (publickey) successful!
+2026-04-06 20:28:09 [INFO] [SUCCESS] SSH tunnel established
+2026-04-06 20:28:13 [INFO] [DB SUCCESS] OTP fetched: 352625
+2026-04-06 20:28:13 [INFO] [SUCCESS] OTP fetched: 352625 ✅
+2026-04-06 20:28:13 [INFO] [STEP] Entering OTP...
+2026-04-06 20:28:13 [INFO] [STEP] Entering OTP...
+2026-04-06 20:28:15 [INFO] [SUCCESS] OTP '352625' entered successfully! ✅
+2026-04-06 20:28:15 [INFO] [STEP] Entered OTP
+2026-04-06 20:28:17 [INFO] [STEP] Clicking Verify button...
+2026-04-06 20:28:17 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Verify']")
+2026-04-06 20:28:17 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Verify']")
+2026-04-06 20:28:17 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Verify']")
+2026-04-06 20:28:17 [INFO] [STEP] Clicked Verify button...
+2026-04-06 20:28:19 [INFO] [STEP] Verifying Page navigated away from OTP...
+2026-04-06 20:28:19 [INFO] [STEP] Waiting for URL to change from: https://stage.sxalable.io/mfa
+2026-04-06 20:28:19 [INFO] [SUCCESS] URL changed to: https://stage.sxalable.io/devices/sxr ✅
+2026-04-06 20:28:19 [INFO] [SUCCESS] Page successfully navigated..
+2026-04-06 20:28:21 [INFO] [STEP] Verifying Landing URL after sign-in..
+2026-04-06 20:28:21 [INFO] [SUCCESS] Valid URL landed: https://stage.sxalable.io/devices/sxr ✅
+2026-04-06 20:28:21 [INFO] [SUCCESS] Sign in is successful ✅
+2026-04-06 20:28:21 [INFO] [STEP] Verifying Continue Button is enabled after entering user details...
+2026-04-06 20:28:21 [INFO] [STEP] Checking if enabled: //button[contains(., 'Continue to plans')]
+2026-04-06 20:28:21 [INFO] [SUCCESS] Button is enabled ✅
+2026-04-06 20:28:21 [INFO] [SUCCESS] Continue Button is enabled after entering user details ✅
+2026-04-06 20:28:21 [INFO] [STEP] Clicking 'Continue to Plans' button...
+2026-04-06 20:28:23 [INFO] [STEP] Locating element: ('xpath', "//button[contains(., 'Continue to plans')]")
+2026-04-06 20:28:23 [INFO] [SUCCESS] Found element: ('xpath', "//button[contains(., 'Continue to plans')]")
+2026-04-06 20:28:23 [INFO] [ACTION] Clicked element: ('xpath', "//button[contains(., 'Continue to plans')]")
+2026-04-06 20:28:23 [INFO] [SUCCESS] Clicked 'Continue to Plans' button...
+2026-04-06 20:28:25 [INFO] [STEP] Verifying available plans page opens ...
+2026-04-06 20:28:25 [INFO] [STEP] Waiting for text: 'Available Plans'
+2026-04-06 20:28:25 [INFO] [SUCCESS] Text 'Available Plans' found on page ✅
+2026-04-06 20:28:25 [INFO] [SUCCESS] 'Available Plans' found on page ✅
+2026-04-06 20:28:25 [INFO] [STEP] Clicking 'Select Plan' button...
+2026-04-06 20:28:25 [INFO] [STEP] Locating element: ('xpath', "//button[normalize-space()='Select Plan']")
+2026-04-06 20:28:25 [INFO] [SUCCESS] Found element: ('xpath', "//button[normalize-space()='Select Plan']")
+2026-04-06 20:28:26 [INFO] [ACTION] Clicked element: ('xpath', "//button[normalize-space()='Select Plan']")
+2026-04-06 20:28:26 [INFO] [SUCCESS] Clicked 'Select Plan' button...
+2026-04-06 20:28:28 [INFO] [STEP] Waiting for Check out page text...
+2026-04-06 20:28:28 [INFO] [STEP] Waiting for text: 'Checkout'
+2026-04-06 20:28:28 [INFO] [SUCCESS] Text 'Checkout' found on page ✅
+2026-04-06 20:28:28 [INFO] [SUCCESS] 'Checkout' found on page ✅
+2026-04-06 20:28:28 [INFO] [STEP] Entering User Details into the form...
+2026-04-06 20:28:28 [INFO] [STEP] Step 1: Entering full_name (Automationuser)...
+2026-04-06 20:28:32 [INFO] [SUCCESS] Error persists after entering: full_name.
+2026-04-06 20:28:32 [INFO] [STEP] Step 2: Entering address_line1 (street)...
+2026-04-06 20:28:36 [INFO] [SUCCESS] Error persists after entering: address_line1.
+2026-04-06 20:28:36 [INFO] [STEP] Step 3: Entering country (India)...
+2026-04-06 20:28:38 [INFO]    - Selected 'India' from dropdown.
+2026-04-06 20:28:42 [INFO] [SUCCESS] Error persists after entering: country.
+2026-04-06 20:28:42 [INFO] [STEP] Step 4: Entering state (Tamil Nadu)...
+2026-04-06 20:28:45 [INFO]    - Selected 'Tamil Nadu' from dropdown.
+2026-04-06 20:28:49 [INFO] [SUCCESS] Error persists after entering: state.
+2026-04-06 20:28:49 [INFO] [STEP] Step 5: Entering city (Chennai)...
+2026-04-06 20:28:51 [INFO]    - Selected 'Chennai' from dropdown.
+2026-04-06 20:28:55 [INFO] [SUCCESS] Error persists after entering: city.
+2026-04-06 20:28:55 [INFO] [STEP] Step 6: Entering pincode (600073)...
+2026-04-06 20:28:59 [INFO] [SUCCESS] Form valid, user fields error cleared.

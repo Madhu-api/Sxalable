@@ -1,0 +1,773 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title">report_20260331_160040.html</title>
+      <link href="assets\style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1 id="title">report_20260331_160040.html</h1>
+    <p>Report generated on 31-Mar-2026 at 16:02:27 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.2.0</p>
+    <div id="environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_results-table__body--empty">
+      <tbody class="results-table-row">
+        <tr id="not-found-message">
+          <td colspan="4">No results found. Check the filters.</td>
+        </tr>
+      </tbody>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr class="collapsible">
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left">&lt;</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">&gt;</div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="logwrapper">
+              <div class="logexpander"></div>
+              <div class="log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        <div class="additional-summary prefix">
+        </div>
+        <p class="run-count">1 test took 00:01:47.</p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button hidden" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to get the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+        <div class="controls">
+          <div class="filters">
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" >
+            <span class="failed">1 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" disabled>
+            <span class="passed">0 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled>
+            <span class="skipped">0 Skipped,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled>
+            <span class="xfailed">0 Expected failures,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xpassed" disabled>
+            <span class="xpassed">0 Unexpected passes,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="error" disabled>
+            <span class="error">0 Errors,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="rerun" disabled>
+            <span class="rerun">0 Reruns</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="retried" disabled>
+            <span class="retried">0 Retried,</span>
+          </div>
+          <div class="collapse">
+            <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class="additional-summary summary">
+      </div>
+      <div class="additional-summary postfix">
+      </div>
+    </div>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="result">Result</th>
+          <th class="sortable" data-column-type="testId">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </table>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.9.13&#34;, &#34;Platform&#34;: &#34;Windows-10-10.0.19042-SP0&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;8.4.2&#34;, &#34;pluggy&#34;: &#34;1.6.0&#34;}, &#34;Plugins&#34;: {&#34;html&#34;: &#34;4.2.0&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;}}, &#34;tests&#34;: {&#34;Test_Cases/test_027_verify_signin_mandatory_card_details.py::test_signin_mandatory_card_details&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;Test_Cases/test_027_verify_signin_mandatory_card_details.py::test_signin_mandatory_card_details&#34;, &#34;duration&#34;: &#34;00:01:45&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;Test_Cases/test_027_verify_signin_mandatory_card_details.py::test_signin_mandatory_card_details&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:01:45&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;driver = &amp;lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&amp;quot;bbcce7ff2ed252b1504a7cc772447ddb&amp;quot;)&amp;gt;\nconfig = {&amp;#x27;SxR&amp;#x27;: {&amp;#x27;name&amp;#x27;: &amp;#x27;AutomationRouter&amp;#x27;}, &amp;#x27;app&amp;#x27;: {&amp;#x27;change_pwd&amp;#x27;: &amp;#x27;Test@12345&amp;#x27;, &amp;#x27;delay&amp;#x27;: 2, &amp;#x27;email&amp;#x27;: &amp;#x27;veltris.demoacc@gmail....&amp;#x27;password&amp;#x27;: &amp;#x27;4&amp;gt;rRZA9aID&amp;#x27;, &amp;#x27;port&amp;#x27;: 5432, ...}, &amp;#x27;ssh&amp;#x27;: {&amp;#x27;host&amp;#x27;: &amp;#x27;104.196.181.43&amp;#x27;, &amp;#x27;port&amp;#x27;: 22, &amp;#x27;username&amp;#x27;: &amp;#x27;ubuntu&amp;#x27;}, ...}\n\n    def test_signin_mandatory_card_details(driver, config):\n        url = config[&amp;quot;app&amp;quot;][&amp;quot;url&amp;quot;]\n        base_dir = os.getcwd()  # project root\n        file_path = os.path.join(base_dir, &amp;quot;input_variables&amp;quot;, &amp;quot;test_signin_credentials.json&amp;quot;)\n        with open(file_path) as f:\n            data = json.load(f)\n        email = data[&amp;quot;email&amp;quot;]\n        workspace = data[&amp;quot;workspace&amp;quot;]\n        # pwd = config[&amp;quot;app&amp;quot;][&amp;quot;change_pwd&amp;quot;]  # user change_pwd for batch run\n        pwd = config[&amp;quot;app&amp;quot;][&amp;quot;pwd&amp;quot;]\n        delay = config[&amp;quot;app&amp;quot;][&amp;quot;delay&amp;quot;]\n        expected_otp_page_text = config[&amp;quot;app&amp;quot;][&amp;quot;expected_otp_page_text&amp;quot;]\n        expected_available_plans_text = config[&amp;quot;app&amp;quot;][&amp;quot;expected_available_plans_text&amp;quot;]\n        expected_checkout_page_text = config[&amp;quot;app&amp;quot;][&amp;quot;expected_checkout_page_text&amp;quot;]\n        # user_details\n        full_name = config[&amp;quot;user&amp;quot;][&amp;quot;user_details&amp;quot;][&amp;quot;full_name&amp;quot;]\n        address_line1 = config[&amp;quot;user&amp;quot;][&amp;quot;user_details&amp;quot;][&amp;quot;address_line1&amp;quot;]\n        country = config[&amp;quot;user&amp;quot;][&amp;quot;user_details&amp;quot;][&amp;quot;country&amp;quot;]\n        state = config[&amp;quot;user&amp;quot;][&amp;quot;user_details&amp;quot;][&amp;quot;state&amp;quot;]\n        city = config[&amp;quot;user&amp;quot;][&amp;quot;user_details&amp;quot;][&amp;quot;city&amp;quot;]\n        pincode = config[&amp;quot;user&amp;quot;][&amp;quot;user_details&amp;quot;][&amp;quot;pincode&amp;quot;]\n        # card_details\n        name_on_card = config[&amp;quot;user&amp;quot;][&amp;quot;card_details&amp;quot;][&amp;quot;name_on_card&amp;quot;]\n        valid_card_number = config[&amp;quot;user&amp;quot;][&amp;quot;card_details&amp;quot;][&amp;quot;valid_card_number&amp;quot;]\n        valid_expiry = config[&amp;quot;user&amp;quot;][&amp;quot;card_details&amp;quot;][&amp;quot;valid_expiry&amp;quot;]\n        cvc = config[&amp;quot;user&amp;quot;][&amp;quot;card_details&amp;quot;][&amp;quot;cvc&amp;quot;]\n    \n        logger.info(f&amp;quot;[STEP] Opening URL: {url}&amp;quot;)\n        driver.get(url)\n        logger.info(f&amp;quot;[INFO] Opened URL: {url}&amp;quot;)\n        time.sleep(delay)\n        logger.info(f&amp;quot;[STEP] Entering (existing) workspace name for Sign in&amp;quot;)\n        try:\n    \n            workspace_input = WebDriverWait(driver, 10).until(\n                ec.presence_of_element_located(\n                    (By.XPATH, &amp;quot;//input[contains(@placeholder,&amp;#x27;Workspace&amp;#x27;)]&amp;quot;)\n                )\n            )\n            workspace_input.click()\n            workspace_input.send_keys(workspace)\n            logger.info(f&amp;quot;[INFO] Workspace entered: {workspace}&amp;quot;)\n    \n        except Exception as e:\n            logger.error(f&amp;quot;[ERROR] Failure in entering workspace name \u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;Failure in entering workspace: {str(e)}&amp;quot;\n    \n        try:\n    \n            logger.info(f&amp;quot;[STEP] Clicking Next button...&amp;quot;)\n            time.sleep(delay)\n            next_button = WebDriverWait(driver, 10).until(\n                ec.element_to_be_clickable(\n                    (By.XPATH, &amp;quot;//button[@type=&amp;#x27;submit&amp;#x27; and normalize-space()=&amp;#x27;Next&amp;#x27;]&amp;quot;)\n                )\n            )\n            next_button.click()\n            logger.info(f&amp;quot;[SUCCESS] Next button clicked...&amp;quot;)\n            time.sleep(delay)\n    \n        except Exception as e:\n            logger.error(f&amp;quot;[ERROR] Failure in clicking Next button \u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;Failure in clicking Next button: {str(e)}&amp;quot;\n    \n        logger.info(f&amp;quot;[STEP] Checking Sign in page URL...&amp;quot;)\n    \n        current_url = driver.current_url\n        assert current_url == &amp;quot;https://stage.sxalable.io/login&amp;quot;, \\\n            f&amp;quot;Expected login URL, but got: {current_url}&amp;quot;\n    \n        logger.info(f&amp;quot;[SUCCESS] Checked Sign in page URL: {current_url}&amp;quot;)\n    \n        logger.info(f&amp;quot;[STEP] Entering (existing) email, password&amp;quot;)\n        time.sleep(delay)\n    \n        try:\n            logger.info(f&amp;quot;[STEP] Entering email: {email}...&amp;quot;)\n            email_input = WebDriverWait(driver, 10).until(\n                ec.presence_of_element_located(\n                    (By.XPATH, &amp;quot;//input[contains(@placeholder,&amp;#x27;email&amp;#x27;)]&amp;quot;)\n                )\n            )\n            email_input.click()\n            email_input.send_keys(email)\n            time.sleep(delay)\n    \n            logger.info(f&amp;quot;[STEP] Entering pwd: {pwd}...&amp;quot;)\n            pwd_input = WebDriverWait(driver, 10).until(\n                ec.presence_of_element_located(\n                    (By.XPATH, &amp;quot;//input[contains(@placeholder,&amp;#x27;password&amp;#x27;)]&amp;quot;)\n                )\n            )\n            pwd_input.click()\n            pwd_input.send_keys(pwd)\n            time.sleep(delay)\n            logger.info(f&amp;quot;[INFO] credentials entered...&amp;quot;)\n    \n        except Exception as e:\n            logger.error(&amp;quot;[ERROR] issue in entering input fields in Sign In \u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;issue in entering input fields in Sign In: {str(e)}&amp;quot;\n    \n        try:\n            logger.info(f&amp;quot;[STEP] Clicking Login button...&amp;quot;)\n            time.sleep(delay)\n            next_button = WebDriverWait(driver, 10).until(\n                ec.element_to_be_clickable(\n                    (By.XPATH, &amp;quot;//button[@type=&amp;#x27;submit&amp;#x27; and normalize-space()=&amp;#x27;Login&amp;#x27;]&amp;quot;)\n                )\n            )\n            logger.info(f&amp;quot;[INFO] Clicked Login button...&amp;quot;)\n    \n        except Exception as e:\n            logger.error(&amp;quot;[ERROR] Failure in clicking login button\u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;Failure in clicking login button: {str(e)}&amp;quot;\n    \n        try:\n    \n            logger.info(&amp;quot;[STEP] Verifying Page navigated to OTP...&amp;quot;)\n            current_url = driver.current_url\n            next_button.click()\n            # verify page is navigated away from sign up page\n            WebDriverWait(driver, 10).until(\n                lambda d: d.current_url != current_url\n            )\n    \n            logger.info(&amp;quot;[SUCCESS] Page navigated to OTP&amp;quot;)\n            time.sleep(delay)\n            logger.info(f&amp;quot;[STEP] Waiting for OTP page text...&amp;quot;)\n            WebDriverWait(driver, 10).until(\n                ec.text_to_be_present_in_element(\n                    (By.TAG_NAME, &amp;quot;body&amp;quot;),\n                    expected_otp_page_text\n                )\n            )\n            time.sleep(delay)\n            logger.info(f&amp;quot;[SUCCESS] &amp;#x27;{expected_otp_page_text}&amp;#x27; found on OTP page \u2705&amp;quot;)\n    \n        except Exception as e:\n            logger.error(&amp;quot;[ERROR] Expected OTP page not found or not loading after clicking Login\u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;OTP page validation failed: {str(e)}&amp;quot;\n    \n        logger.info(&amp;quot;[STEP] Fetching OTP from DB...&amp;quot;)\n        db_config = config[&amp;quot;db&amp;quot;]\n        ssh_config = config[&amp;quot;ssh&amp;quot;]\n    \n        try:\n            otp = get_otp_from_db(db_config, ssh_config, email)\n            assert otp is not None, &amp;quot;OTP not found \u274c&amp;quot;\n            logger.info(f&amp;quot;[SUCCESS] OTP fetched: {otp} \u2705&amp;quot;)\n    \n        except Exception as e:\n            logger.error(&amp;quot;[ERROR] OTP fetch failed \u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;OTP fetch failed: {str(e)}&amp;quot;\n    \n        logger.info(&amp;quot;[STEP] Entering OTP...&amp;quot;)\n        time.sleep(delay)\n        try:\n            for i, digit in enumerate(otp, start=1):\n                driver.find_element(\n                    By.XPATH,\n                    f&amp;quot;//input[@aria-label=&amp;#x27;Please enter OTP character {i}&amp;#x27;]&amp;quot;\n                ).send_keys(digit)\n            time.sleep(delay)\n            logger.info(f&amp;quot;[SUCCESS] OTP Entered! \u2705&amp;quot;)\n    \n        except Exception as e:\n            logger.error(&amp;quot;[ERROR] OTP Entering failed \u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;OTP Entering failed: {str(e)}&amp;quot;\n    \n        time.sleep(delay)\n    \n        logger.info(&amp;quot;[STEP] Clicking Verify button...&amp;quot;)\n    \n        try:\n            verify_btn = WebDriverWait(driver, 10).until(\n                ec.element_to_be_clickable(\n                    (By.XPATH, &amp;quot;//button[@type=&amp;#x27;submit&amp;#x27; and normalize-space()=&amp;#x27;Verify&amp;#x27;]&amp;quot;)\n                )\n            )\n            verify_btn.click()\n            logger.info(f&amp;quot;[SUCCESS] Verify button clicked \u2705&amp;quot;)\n    \n        except Exception as e:\n            logger.error(&amp;quot;[ERROR] Verify click failed \u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;Verify click failed {str(e)}&amp;quot;\n    \n        # verify page is navigated away from OTP page\n        logger.info(&amp;quot;[STEP] Verify page is navigated away from OTP page \u2705&amp;quot;)\n        current_url = driver.current_url\n        WebDriverWait(driver, 10).until(\n            lambda d: d.current_url != current_url\n        )\n    \n        logger.info(&amp;quot;[SUCCESS] Page successfully navigated..&amp;quot;)\n        time.sleep(delay)\n        logger.info(&amp;quot;[STEP] Verifying Landing URL after sign-in..&amp;quot;)\n        valid_urls = [\n            &amp;quot;https://stage.sxalable.io/dashboard&amp;quot;,\n            &amp;quot;https://stage.sxalable.io/devices/sxr&amp;quot;\n        ]\n    \n        WebDriverWait(driver, 10).until(\n            lambda d: any(d.current_url.startswith(signin_url) for signin_url in valid_urls)\n        )\n    \n        logger.info(f&amp;quot;[SUCCESS] Valid URL landed: {driver.current_url} \u2705&amp;quot;)\n    \n        #  Verify &amp;#x27;continue to plans&amp;#x27; button enabled\n        logger.info(&amp;quot;[STEP] Verifying Continue Button is enabled (assuming user details previously entered)...&amp;quot;)\n        xpath = &amp;quot;//button[contains(., &amp;#x27;Continue to plans&amp;#x27;)]&amp;quot;\n        continue_button = driver.find_element(By.XPATH, xpath)\n        assert continue_button.is_enabled(), &amp;quot;Continue Button should be enabled, but not enabled&amp;quot;\n        logger.info(f&amp;quot;[SUCCESS] Continue Button is enabled after entering user details \u2705&amp;quot;)\n        logger.info(f&amp;quot;[STEP] Clicking &amp;#x27;Continue to Plans&amp;#x27; button...&amp;quot;)\n        time.sleep(delay)\n        continue_button.click()\n        logger.info(f&amp;quot;[SUCCESS] Clicked &amp;#x27;Continue to Plans&amp;#x27; button...&amp;quot;)\n    \n        try:\n            logger.info(&amp;quot;[STEP] Verifying available plans page opens ...&amp;quot;)\n            WebDriverWait(driver, 10).until(\n                ec.text_to_be_present_in_element(\n                    (By.TAG_NAME, &amp;quot;body&amp;quot;),\n                    expected_available_plans_text\n                )\n            )\n            time.sleep(delay)\n            logger.info(f&amp;quot;[SUCCESS] &amp;#x27;{expected_available_plans_text}&amp;#x27; found on page \u2705&amp;quot;)\n    \n        except Exception as e:\n            logger.error(f&amp;quot;[ERROR] &amp;#x27;{expected_available_plans_text}&amp;#x27; NOT found on page\u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;&amp;#x27;{expected_available_plans_text}&amp;#x27; NOT found on page: {str(e)}&amp;quot;\n    \n        try:\n            logger.info(f&amp;quot;[STEP] Clicking &amp;#x27;Select Plan&amp;#x27; button...&amp;quot;)\n            select_plan_btn = WebDriverWait(driver, 10).until(\n                ec.element_to_be_clickable(\n                    (By.XPATH, &amp;quot;//button[normalize-space()=&amp;#x27;Select Plan&amp;#x27;]&amp;quot;)\n                )\n            )\n            select_plan_btn.click()\n            time.sleep(delay)\n            logger.info(f&amp;quot;[SUCCESS] &amp;#x27;Select plan&amp;#x27; button clicked \u2705&amp;quot;)\n    \n        except Exception as e:\n            logger.error(&amp;quot;[ERROR] Clicking &amp;#x27;Select Plan&amp;#x27; button failed \u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;Clicking &amp;#x27;Select Plan&amp;#x27; button failed {str(e)}&amp;quot;\n    \n        try:\n            logger.info(f&amp;quot;[STEP] Waiting for Check out page text...&amp;quot;)\n            WebDriverWait(driver, 10).until(\n                ec.text_to_be_present_in_element(\n                    (By.TAG_NAME, &amp;quot;body&amp;quot;),\n                    expected_checkout_page_text\n                )\n            )\n            time.sleep(delay)\n            logger.info(f&amp;quot;[SUCCESS] &amp;#x27;{expected_checkout_page_text}&amp;#x27; found on page \u2705&amp;quot;)\n    \n        except Exception as e:\n            logger.error(f&amp;quot;[ERROR] {expected_checkout_page_text} NOT found on page\u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;{expected_checkout_page_text} NOT found on page: {str(e)}&amp;quot;\n    \n        time.sleep(delay)\n    \n        billing_fields = [\n            {&amp;quot;name&amp;quot;: &amp;quot;full_name&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//input[@name=&amp;#x27;fullName&amp;#x27;]&amp;quot;, &amp;quot;value&amp;quot;: full_name},\n            {&amp;quot;name&amp;quot;: &amp;quot;address_line1&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//input[@name=&amp;#x27;addressline1&amp;#x27;]&amp;quot;, &amp;quot;value&amp;quot;: address_line1},\n            {&amp;quot;name&amp;quot;: &amp;quot;country&amp;quot;,\n             &amp;quot;xpath&amp;quot;: &amp;quot;//div[contains(@class, &amp;#x27;MuiAutocomplete-root&amp;#x27;) and .//label[text()=&amp;#x27;Country&amp;#x27;]]&amp;quot;,\n             &amp;quot;is_select&amp;quot;: True, &amp;quot;value&amp;quot;: country},\n            {&amp;quot;name&amp;quot;: &amp;quot;state&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//div[contains(@class, &amp;#x27;MuiAutocomplete-root&amp;#x27;) and .//label[text()=&amp;#x27;State&amp;#x27;]]&amp;quot;,\n             &amp;quot;is_select&amp;quot;: True, &amp;quot;value&amp;quot;: state},\n            {&amp;quot;name&amp;quot;: &amp;quot;city&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//div[contains(@class, &amp;#x27;MuiAutocomplete-root&amp;#x27;) and .//label[text()=&amp;#x27;City&amp;#x27;]]&amp;quot;,\n             &amp;quot;is_select&amp;quot;: True, &amp;quot;value&amp;quot;: city},\n            {&amp;quot;name&amp;quot;: &amp;quot;pincode&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//input[@name=&amp;#x27;zipCode&amp;#x27;]&amp;quot;, &amp;quot;value&amp;quot;: pincode}\n        ]\n    \n        card_fields = [\n            {&amp;quot;name&amp;quot;: &amp;quot;name_on_card&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//input[@name=&amp;#x27;nameOnCard&amp;#x27;]&amp;quot;, &amp;quot;value&amp;quot;: name_on_card},\n            {&amp;quot;name&amp;quot;: &amp;quot;valid_card_number&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//label[text()=&amp;#x27;Card Number&amp;#x27;]&amp;quot;, &amp;quot;value&amp;quot;: valid_card_number},\n            {&amp;quot;name&amp;quot;: &amp;quot;valid_expiry&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//label[text()=&amp;#x27;Expiry&amp;#x27;]&amp;quot;, &amp;quot;value&amp;quot;: valid_expiry},\n            {&amp;quot;name&amp;quot;: &amp;quot;CVC&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//label[text()=&amp;#x27;CVC&amp;#x27;]&amp;quot;, &amp;quot;value&amp;quot;: cvc}\n        ]\n    \n        add_button_xpath = &amp;quot;//button[normalize-space()=&amp;#x27;Add&amp;#x27;]&amp;quot;\n        error_msg_xpath = &amp;quot;//div[@role=&amp;#x27;alert&amp;#x27;]//div[normalize-space()=&amp;#x27;Validation failed&amp;#x27;]&amp;quot;\n    \n        logger.info(f&amp;quot;[STEP] Entering User Details into the form...&amp;quot;)\n        # user details list of dictionary\n        try:\n            for i, step in enumerate(billing_fields):\n                logger.info(f&amp;quot;[STEP] Step {i + 1}: Entering {step[&amp;#x27;name&amp;#x27;]} ({step[&amp;#x27;value&amp;#x27;]})...&amp;quot;)\n    \n                # 1. FIND AND FILL FIELD\n                field_element = WebDriverWait(driver, 10).until(\n                    ec.presence_of_element_located((By.XPATH, step[&amp;#x27;xpath&amp;#x27;]))\n                )\n    \n                if step.get(&amp;quot;is_select&amp;quot;):\n                    # For Country/State/City: Find the input, type the value, and press ENTER\n                    input_field = field_element.find_element(By.TAG_NAME, &amp;quot;input&amp;quot;)\n    \n                    # Clear existing data first to ensure a clean type\n                    input_field.send_keys(Keys.CONTROL + &amp;quot;a&amp;quot;)\n                    input_field.send_keys(Keys.BACKSPACE)\n    \n                    # Type and hit Enter\n                    input_field.send_keys(step[&amp;#x27;value&amp;#x27;])\n                    time.sleep(delay)  # Give the UI a moment to register the text\n                    option_xpath = f&amp;quot;//li[@role=&amp;#x27;option&amp;#x27; and normalize-space()=&amp;#x27;{step[&amp;#x27;value&amp;#x27;]}&amp;#x27;]&amp;quot;\n    \n                    try:\n                        option_element = WebDriverWait(driver, 10).until(\n                            ec.element_to_be_clickable((By.XPATH, option_xpath))\n                        )\n                        option_element.click()\n                        logger.info(f&amp;quot;   - Selected &amp;#x27;{step[&amp;#x27;value&amp;#x27;]}&amp;#x27; from dropdown.&amp;quot;)\n    \n                    except Exception as e:\n                        logger.error(f&amp;quot;- Option &amp;#x27;{step[&amp;#x27;value&amp;#x27;]}&amp;#x27; did not appear in the list!: {str(e)}&amp;quot;)\n                        assert False\n                else:\n                    # Standard input (Full Name, Address, etc.)\n                    field_element.clear()\n                    field_element.send_keys(step[&amp;#x27;value&amp;#x27;])\n    \n                time.sleep(delay)\n            logger.info(&amp;quot;[SUCCESS] User Details Entered!&amp;quot;)\n    \n        except Exception as e:\n            logger.error(f&amp;quot;[CRITICAL] Error in entering user details: {str(e)}&amp;quot;)\n            assert False\n    \n        logger.info(f&amp;quot;[STEP] Entering Card Details into the form (for validation)...&amp;quot;)\n        try:\n            for i, step in enumerate(card_fields):\n                logger.info(f&amp;quot;[STEP] Step {i + 1}: Entering {step[&amp;#x27;name&amp;#x27;]} ({step[&amp;#x27;value&amp;#x27;]})...&amp;quot;)\n    \n                # 1. FIND AND FILL FIELD\n                field_element = WebDriverWait(driver, 10).until(\n                    ec.presence_of_element_located((By.XPATH, step[&amp;#x27;xpath&amp;#x27;]))\n                )\n    \n&amp;gt;               field_element.clear()\n\nTest_Cases\\test_027_verify_signin_mandatory_card_details.py:362: \n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n..\\liveSession\\Sxalable\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py:154: in clear\n    self._execute(Command.CLEAR_ELEMENT)\n..\\liveSession\\Sxalable\\lib\\site-packages\\selenium\\webdriver\\remote\\webelement.py:572: in _execute\n    return self._parent.execute(command, params)\n..\\liveSession\\Sxalable\\lib\\site-packages\\selenium\\webdriver\\remote\\webdriver.py:458: in execute\n    self.error_handler.check_response(response)\n_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _\n\nself = &amp;lt;selenium.webdriver.remote.errorhandler.ErrorHandler object at 0x0000023FF8E43D60&amp;gt;\nresponse = {&amp;#x27;status&amp;#x27;: 400, &amp;#x27;value&amp;#x27;: &amp;#x27;{&amp;quot;value&amp;quot;:{&amp;quot;error&amp;quot;:&amp;quot;invalid element state&amp;quot;,&amp;quot;message&amp;quot;:&amp;quot;invalid element state\\\\n  (Session info...RtlGetAppContainerNamedObjectPath [0x775b7a9e+11e]\\\\n\\\\tntdll!RtlGetAppContainerNamedObjectPath [0x775b7a6e+ee]\\\\n&amp;quot;}}&amp;#x27;}\n\n    def check_response(self, response: dict[str, Any]) -&amp;gt; None:\n        &amp;quot;&amp;quot;&amp;quot;Checks that a JSON response from the WebDriver does not have an\n        error.\n    \n        :Args:\n         - response - The JSON response from the WebDriver server as a dictionary\n           object.\n    \n        :Raises: If the response contains an error message.\n        &amp;quot;&amp;quot;&amp;quot;\n        status = response.get(&amp;quot;status&amp;quot;, None)\n        if not status or status == ErrorCode.SUCCESS:\n            return\n        value = None\n        message = response.get(&amp;quot;message&amp;quot;, &amp;quot;&amp;quot;)\n        screen: str = response.get(&amp;quot;screen&amp;quot;, &amp;quot;&amp;quot;)\n        stacktrace = None\n        if isinstance(status, int):\n            value_json = response.get(&amp;quot;value&amp;quot;, None)\n            if value_json and isinstance(value_json, str):\n                try:\n                    value = json.loads(value_json)\n                    if isinstance(value, dict):\n                        if len(value) == 1:\n                            value = value[&amp;quot;value&amp;quot;]\n                        status = value.get(&amp;quot;error&amp;quot;, None)\n                        if not status:\n                            status = value.get(&amp;quot;status&amp;quot;, ErrorCode.UNKNOWN_ERROR)\n                            message = value.get(&amp;quot;value&amp;quot;) or value.get(&amp;quot;message&amp;quot;)\n                            if not isinstance(message, str):\n                                value = message\n                                message = message.get(&amp;quot;message&amp;quot;) if isinstance(message, dict) else None\n                        else:\n                            message = value.get(&amp;quot;message&amp;quot;, None)\n                except ValueError:\n                    pass\n    \n        exception_class: type[WebDriverException]\n        e = ErrorCode()\n        error_codes = [item for item in dir(e) if not item.startswith(&amp;quot;__&amp;quot;)]\n        for error_code in error_codes:\n            error_info = getattr(ErrorCode, error_code)\n            if isinstance(error_info, list) and status in error_info:\n                exception_class = getattr(ExceptionMapping, error_code, WebDriverException)\n                break\n        else:\n            exception_class = WebDriverException\n    \n        if not value:\n            value = response[&amp;quot;value&amp;quot;]\n        if isinstance(value, str):\n            raise exception_class(value)\n        if message == &amp;quot;&amp;quot; and &amp;quot;message&amp;quot; in value:\n            message = value[&amp;quot;message&amp;quot;]\n    \n        screen = None  # type: ignore[assignment]\n        if &amp;quot;screen&amp;quot; in value:\n            screen = value[&amp;quot;screen&amp;quot;]\n    \n        stacktrace = None\n        st_value = value.get(&amp;quot;stackTrace&amp;quot;) or value.get(&amp;quot;stacktrace&amp;quot;)\n        if st_value:\n            if isinstance(st_value, str):\n                stacktrace = st_value.split(&amp;quot;\\n&amp;quot;)\n            else:\n                stacktrace = []\n                try:\n                    for frame in st_value:\n                        line = frame.get(&amp;quot;lineNumber&amp;quot;, &amp;quot;&amp;quot;)\n                        file = frame.get(&amp;quot;fileName&amp;quot;, &amp;quot;&amp;lt;anonymous&amp;gt;&amp;quot;)\n                        if line:\n                            file = f&amp;quot;{file}:{line}&amp;quot;\n                        meth = frame.get(&amp;quot;methodName&amp;quot;, &amp;quot;&amp;lt;anonymous&amp;gt;&amp;quot;)\n                        if &amp;quot;className&amp;quot; in frame:\n                            meth = f&amp;quot;{frame[&amp;#x27;className&amp;#x27;]}.{meth}&amp;quot;\n                        msg = &amp;quot;    at %s (%s)&amp;quot;\n                        msg = msg % (meth, file)\n                        stacktrace.append(msg)\n                except TypeError:\n                    pass\n        if exception_class == UnexpectedAlertPresentException:\n            alert_text = None\n            if &amp;quot;data&amp;quot; in value:\n                alert_text = value[&amp;quot;data&amp;quot;].get(&amp;quot;text&amp;quot;)\n            elif &amp;quot;alert&amp;quot; in value:\n                alert_text = value[&amp;quot;alert&amp;quot;].get(&amp;quot;text&amp;quot;)\n            raise exception_class(message, screen, stacktrace, alert_text)  # type: ignore[call-arg]  # mypy is not smart enough here\n&amp;gt;       raise exception_class(message, screen, stacktrace)\nE       selenium.common.exceptions.InvalidElementStateException: Message: invalid element state\nE         (Session info: chrome=146.0.7680.165)\nE       Stacktrace:\nE       \tchromedriver!GetHandleVerifier [0x9bcdf3+10b03]\nE       \tchromedriver!GetHandleVerifier [0x9bcf24+10c34]\nE       \tchromedriver!(No symbol) [0x7a1f5e]\nE       \tchromedriver!(No symbol) [0x7e37ae]\nE       \tchromedriver!(No symbol) [0x80db0c]\nE       \tchromedriver!(No symbol) [0x7e16e4]\nE       \tchromedriver!(No symbol) [0x80dcd4]\nE       \tchromedriver!(No symbol) [0x82a9a5]\nE       \tchromedriver!(No symbol) [0x80d8a6]\nE       \tchromedriver!(No symbol) [0x7e0229]\nE       \tchromedriver!(No symbol) [0x7e0fe4]\nE       \tchromedriver!GetHandleVerifier [0xc248b9+2785c9]\nE       \tchromedriver!GetHandleVerifier [0xc1feb5+273bc5]\nE       \tchromedriver!GetHandleVerifier [0xc3e06b+291d7b]\nE       \tchromedriver!GetHandleVerifier [0x9d5cc8+299d8]\nE       \tchromedriver!GetHandleVerifier [0x9dd9fd+3170d]\nE       \tchromedriver!GetHandleVerifier [0x9c58c8+195d8]\nE       \tchromedriver!GetHandleVerifier [0x9c5a92+197a2]\nE       \tchromedriver!GetHandleVerifier [0x9aee9a+2baa]\nE       \tKERNEL32!BaseThreadInitThunk [0x7656fa29+19]\nE       \tntdll!RtlGetAppContainerNamedObjectPath [0x775b7a9e+11e]\nE       \tntdll!RtlGetAppContainerNamedObjectPath [0x775b7a6e+ee]\n\n..\\liveSession\\Sxalable\\lib\\site-packages\\selenium\\webdriver\\remote\\errorhandler.py:232: InvalidElementStateException\n\nDuring handling of the above exception, another exception occurred:\n\ndriver = &amp;lt;selenium.webdriver.chrome.webdriver.WebDriver (session=&amp;quot;bbcce7ff2ed252b1504a7cc772447ddb&amp;quot;)&amp;gt;\nconfig = {&amp;#x27;SxR&amp;#x27;: {&amp;#x27;name&amp;#x27;: &amp;#x27;AutomationRouter&amp;#x27;}, &amp;#x27;app&amp;#x27;: {&amp;#x27;change_pwd&amp;#x27;: &amp;#x27;Test@12345&amp;#x27;, &amp;#x27;delay&amp;#x27;: 2, &amp;#x27;email&amp;#x27;: &amp;#x27;veltris.demoacc@gmail....&amp;#x27;password&amp;#x27;: &amp;#x27;4&amp;gt;rRZA9aID&amp;#x27;, &amp;#x27;port&amp;#x27;: 5432, ...}, &amp;#x27;ssh&amp;#x27;: {&amp;#x27;host&amp;#x27;: &amp;#x27;104.196.181.43&amp;#x27;, &amp;#x27;port&amp;#x27;: 22, &amp;#x27;username&amp;#x27;: &amp;#x27;ubuntu&amp;#x27;}, ...}\n\n    def test_signin_mandatory_card_details(driver, config):\n        url = config[&amp;quot;app&amp;quot;][&amp;quot;url&amp;quot;]\n        base_dir = os.getcwd()  # project root\n        file_path = os.path.join(base_dir, &amp;quot;input_variables&amp;quot;, &amp;quot;test_signin_credentials.json&amp;quot;)\n        with open(file_path) as f:\n            data = json.load(f)\n        email = data[&amp;quot;email&amp;quot;]\n        workspace = data[&amp;quot;workspace&amp;quot;]\n        # pwd = config[&amp;quot;app&amp;quot;][&amp;quot;change_pwd&amp;quot;]  # user change_pwd for batch run\n        pwd = config[&amp;quot;app&amp;quot;][&amp;quot;pwd&amp;quot;]\n        delay = config[&amp;quot;app&amp;quot;][&amp;quot;delay&amp;quot;]\n        expected_otp_page_text = config[&amp;quot;app&amp;quot;][&amp;quot;expected_otp_page_text&amp;quot;]\n        expected_available_plans_text = config[&amp;quot;app&amp;quot;][&amp;quot;expected_available_plans_text&amp;quot;]\n        expected_checkout_page_text = config[&amp;quot;app&amp;quot;][&amp;quot;expected_checkout_page_text&amp;quot;]\n        # user_details\n        full_name = config[&amp;quot;user&amp;quot;][&amp;quot;user_details&amp;quot;][&amp;quot;full_name&amp;quot;]\n        address_line1 = config[&amp;quot;user&amp;quot;][&amp;quot;user_details&amp;quot;][&amp;quot;address_line1&amp;quot;]\n        country = config[&amp;quot;user&amp;quot;][&amp;quot;user_details&amp;quot;][&amp;quot;country&amp;quot;]\n        state = config[&amp;quot;user&amp;quot;][&amp;quot;user_details&amp;quot;][&amp;quot;state&amp;quot;]\n        city = config[&amp;quot;user&amp;quot;][&amp;quot;user_details&amp;quot;][&amp;quot;city&amp;quot;]\n        pincode = config[&amp;quot;user&amp;quot;][&amp;quot;user_details&amp;quot;][&amp;quot;pincode&amp;quot;]\n        # card_details\n        name_on_card = config[&amp;quot;user&amp;quot;][&amp;quot;card_details&amp;quot;][&amp;quot;name_on_card&amp;quot;]\n        valid_card_number = config[&amp;quot;user&amp;quot;][&amp;quot;card_details&amp;quot;][&amp;quot;valid_card_number&amp;quot;]\n        valid_expiry = config[&amp;quot;user&amp;quot;][&amp;quot;card_details&amp;quot;][&amp;quot;valid_expiry&amp;quot;]\n        cvc = config[&amp;quot;user&amp;quot;][&amp;quot;card_details&amp;quot;][&amp;quot;cvc&amp;quot;]\n    \n        logger.info(f&amp;quot;[STEP] Opening URL: {url}&amp;quot;)\n        driver.get(url)\n        logger.info(f&amp;quot;[INFO] Opened URL: {url}&amp;quot;)\n        time.sleep(delay)\n        logger.info(f&amp;quot;[STEP] Entering (existing) workspace name for Sign in&amp;quot;)\n        try:\n    \n            workspace_input = WebDriverWait(driver, 10).until(\n                ec.presence_of_element_located(\n                    (By.XPATH, &amp;quot;//input[contains(@placeholder,&amp;#x27;Workspace&amp;#x27;)]&amp;quot;)\n                )\n            )\n            workspace_input.click()\n            workspace_input.send_keys(workspace)\n            logger.info(f&amp;quot;[INFO] Workspace entered: {workspace}&amp;quot;)\n    \n        except Exception as e:\n            logger.error(f&amp;quot;[ERROR] Failure in entering workspace name \u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;Failure in entering workspace: {str(e)}&amp;quot;\n    \n        try:\n    \n            logger.info(f&amp;quot;[STEP] Clicking Next button...&amp;quot;)\n            time.sleep(delay)\n            next_button = WebDriverWait(driver, 10).until(\n                ec.element_to_be_clickable(\n                    (By.XPATH, &amp;quot;//button[@type=&amp;#x27;submit&amp;#x27; and normalize-space()=&amp;#x27;Next&amp;#x27;]&amp;quot;)\n                )\n            )\n            next_button.click()\n            logger.info(f&amp;quot;[SUCCESS] Next button clicked...&amp;quot;)\n            time.sleep(delay)\n    \n        except Exception as e:\n            logger.error(f&amp;quot;[ERROR] Failure in clicking Next button \u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;Failure in clicking Next button: {str(e)}&amp;quot;\n    \n        logger.info(f&amp;quot;[STEP] Checking Sign in page URL...&amp;quot;)\n    \n        current_url = driver.current_url\n        assert current_url == &amp;quot;https://stage.sxalable.io/login&amp;quot;, \\\n            f&amp;quot;Expected login URL, but got: {current_url}&amp;quot;\n    \n        logger.info(f&amp;quot;[SUCCESS] Checked Sign in page URL: {current_url}&amp;quot;)\n    \n        logger.info(f&amp;quot;[STEP] Entering (existing) email, password&amp;quot;)\n        time.sleep(delay)\n    \n        try:\n            logger.info(f&amp;quot;[STEP] Entering email: {email}...&amp;quot;)\n            email_input = WebDriverWait(driver, 10).until(\n                ec.presence_of_element_located(\n                    (By.XPATH, &amp;quot;//input[contains(@placeholder,&amp;#x27;email&amp;#x27;)]&amp;quot;)\n                )\n            )\n            email_input.click()\n            email_input.send_keys(email)\n            time.sleep(delay)\n    \n            logger.info(f&amp;quot;[STEP] Entering pwd: {pwd}...&amp;quot;)\n            pwd_input = WebDriverWait(driver, 10).until(\n                ec.presence_of_element_located(\n                    (By.XPATH, &amp;quot;//input[contains(@placeholder,&amp;#x27;password&amp;#x27;)]&amp;quot;)\n                )\n            )\n            pwd_input.click()\n            pwd_input.send_keys(pwd)\n            time.sleep(delay)\n            logger.info(f&amp;quot;[INFO] credentials entered...&amp;quot;)\n    \n        except Exception as e:\n            logger.error(&amp;quot;[ERROR] issue in entering input fields in Sign In \u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;issue in entering input fields in Sign In: {str(e)}&amp;quot;\n    \n        try:\n            logger.info(f&amp;quot;[STEP] Clicking Login button...&amp;quot;)\n            time.sleep(delay)\n            next_button = WebDriverWait(driver, 10).until(\n                ec.element_to_be_clickable(\n                    (By.XPATH, &amp;quot;//button[@type=&amp;#x27;submit&amp;#x27; and normalize-space()=&amp;#x27;Login&amp;#x27;]&amp;quot;)\n                )\n            )\n            logger.info(f&amp;quot;[INFO] Clicked Login button...&amp;quot;)\n    \n        except Exception as e:\n            logger.error(&amp;quot;[ERROR] Failure in clicking login button\u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;Failure in clicking login button: {str(e)}&amp;quot;\n    \n        try:\n    \n            logger.info(&amp;quot;[STEP] Verifying Page navigated to OTP...&amp;quot;)\n            current_url = driver.current_url\n            next_button.click()\n            # verify page is navigated away from sign up page\n            WebDriverWait(driver, 10).until(\n                lambda d: d.current_url != current_url\n            )\n    \n            logger.info(&amp;quot;[SUCCESS] Page navigated to OTP&amp;quot;)\n            time.sleep(delay)\n            logger.info(f&amp;quot;[STEP] Waiting for OTP page text...&amp;quot;)\n            WebDriverWait(driver, 10).until(\n                ec.text_to_be_present_in_element(\n                    (By.TAG_NAME, &amp;quot;body&amp;quot;),\n                    expected_otp_page_text\n                )\n            )\n            time.sleep(delay)\n            logger.info(f&amp;quot;[SUCCESS] &amp;#x27;{expected_otp_page_text}&amp;#x27; found on OTP page \u2705&amp;quot;)\n    \n        except Exception as e:\n            logger.error(&amp;quot;[ERROR] Expected OTP page not found or not loading after clicking Login\u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;OTP page validation failed: {str(e)}&amp;quot;\n    \n        logger.info(&amp;quot;[STEP] Fetching OTP from DB...&amp;quot;)\n        db_config = config[&amp;quot;db&amp;quot;]\n        ssh_config = config[&amp;quot;ssh&amp;quot;]\n    \n        try:\n            otp = get_otp_from_db(db_config, ssh_config, email)\n            assert otp is not None, &amp;quot;OTP not found \u274c&amp;quot;\n            logger.info(f&amp;quot;[SUCCESS] OTP fetched: {otp} \u2705&amp;quot;)\n    \n        except Exception as e:\n            logger.error(&amp;quot;[ERROR] OTP fetch failed \u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;OTP fetch failed: {str(e)}&amp;quot;\n    \n        logger.info(&amp;quot;[STEP] Entering OTP...&amp;quot;)\n        time.sleep(delay)\n        try:\n            for i, digit in enumerate(otp, start=1):\n                driver.find_element(\n                    By.XPATH,\n                    f&amp;quot;//input[@aria-label=&amp;#x27;Please enter OTP character {i}&amp;#x27;]&amp;quot;\n                ).send_keys(digit)\n            time.sleep(delay)\n            logger.info(f&amp;quot;[SUCCESS] OTP Entered! \u2705&amp;quot;)\n    \n        except Exception as e:\n            logger.error(&amp;quot;[ERROR] OTP Entering failed \u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;OTP Entering failed: {str(e)}&amp;quot;\n    \n        time.sleep(delay)\n    \n        logger.info(&amp;quot;[STEP] Clicking Verify button...&amp;quot;)\n    \n        try:\n            verify_btn = WebDriverWait(driver, 10).until(\n                ec.element_to_be_clickable(\n                    (By.XPATH, &amp;quot;//button[@type=&amp;#x27;submit&amp;#x27; and normalize-space()=&amp;#x27;Verify&amp;#x27;]&amp;quot;)\n                )\n            )\n            verify_btn.click()\n            logger.info(f&amp;quot;[SUCCESS] Verify button clicked \u2705&amp;quot;)\n    \n        except Exception as e:\n            logger.error(&amp;quot;[ERROR] Verify click failed \u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;Verify click failed {str(e)}&amp;quot;\n    \n        # verify page is navigated away from OTP page\n        logger.info(&amp;quot;[STEP] Verify page is navigated away from OTP page \u2705&amp;quot;)\n        current_url = driver.current_url\n        WebDriverWait(driver, 10).until(\n            lambda d: d.current_url != current_url\n        )\n    \n        logger.info(&amp;quot;[SUCCESS] Page successfully navigated..&amp;quot;)\n        time.sleep(delay)\n        logger.info(&amp;quot;[STEP] Verifying Landing URL after sign-in..&amp;quot;)\n        valid_urls = [\n            &amp;quot;https://stage.sxalable.io/dashboard&amp;quot;,\n            &amp;quot;https://stage.sxalable.io/devices/sxr&amp;quot;\n        ]\n    \n        WebDriverWait(driver, 10).until(\n            lambda d: any(d.current_url.startswith(signin_url) for signin_url in valid_urls)\n        )\n    \n        logger.info(f&amp;quot;[SUCCESS] Valid URL landed: {driver.current_url} \u2705&amp;quot;)\n    \n        #  Verify &amp;#x27;continue to plans&amp;#x27; button enabled\n        logger.info(&amp;quot;[STEP] Verifying Continue Button is enabled (assuming user details previously entered)...&amp;quot;)\n        xpath = &amp;quot;//button[contains(., &amp;#x27;Continue to plans&amp;#x27;)]&amp;quot;\n        continue_button = driver.find_element(By.XPATH, xpath)\n        assert continue_button.is_enabled(), &amp;quot;Continue Button should be enabled, but not enabled&amp;quot;\n        logger.info(f&amp;quot;[SUCCESS] Continue Button is enabled after entering user details \u2705&amp;quot;)\n        logger.info(f&amp;quot;[STEP] Clicking &amp;#x27;Continue to Plans&amp;#x27; button...&amp;quot;)\n        time.sleep(delay)\n        continue_button.click()\n        logger.info(f&amp;quot;[SUCCESS] Clicked &amp;#x27;Continue to Plans&amp;#x27; button...&amp;quot;)\n    \n        try:\n            logger.info(&amp;quot;[STEP] Verifying available plans page opens ...&amp;quot;)\n            WebDriverWait(driver, 10).until(\n                ec.text_to_be_present_in_element(\n                    (By.TAG_NAME, &amp;quot;body&amp;quot;),\n                    expected_available_plans_text\n                )\n            )\n            time.sleep(delay)\n            logger.info(f&amp;quot;[SUCCESS] &amp;#x27;{expected_available_plans_text}&amp;#x27; found on page \u2705&amp;quot;)\n    \n        except Exception as e:\n            logger.error(f&amp;quot;[ERROR] &amp;#x27;{expected_available_plans_text}&amp;#x27; NOT found on page\u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;&amp;#x27;{expected_available_plans_text}&amp;#x27; NOT found on page: {str(e)}&amp;quot;\n    \n        try:\n            logger.info(f&amp;quot;[STEP] Clicking &amp;#x27;Select Plan&amp;#x27; button...&amp;quot;)\n            select_plan_btn = WebDriverWait(driver, 10).until(\n                ec.element_to_be_clickable(\n                    (By.XPATH, &amp;quot;//button[normalize-space()=&amp;#x27;Select Plan&amp;#x27;]&amp;quot;)\n                )\n            )\n            select_plan_btn.click()\n            time.sleep(delay)\n            logger.info(f&amp;quot;[SUCCESS] &amp;#x27;Select plan&amp;#x27; button clicked \u2705&amp;quot;)\n    \n        except Exception as e:\n            logger.error(&amp;quot;[ERROR] Clicking &amp;#x27;Select Plan&amp;#x27; button failed \u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;Clicking &amp;#x27;Select Plan&amp;#x27; button failed {str(e)}&amp;quot;\n    \n        try:\n            logger.info(f&amp;quot;[STEP] Waiting for Check out page text...&amp;quot;)\n            WebDriverWait(driver, 10).until(\n                ec.text_to_be_present_in_element(\n                    (By.TAG_NAME, &amp;quot;body&amp;quot;),\n                    expected_checkout_page_text\n                )\n            )\n            time.sleep(delay)\n            logger.info(f&amp;quot;[SUCCESS] &amp;#x27;{expected_checkout_page_text}&amp;#x27; found on page \u2705&amp;quot;)\n    \n        except Exception as e:\n            logger.error(f&amp;quot;[ERROR] {expected_checkout_page_text} NOT found on page\u274c&amp;quot;)\n            logger.error(str(e))\n            assert False, f&amp;quot;{expected_checkout_page_text} NOT found on page: {str(e)}&amp;quot;\n    \n        time.sleep(delay)\n    \n        billing_fields = [\n            {&amp;quot;name&amp;quot;: &amp;quot;full_name&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//input[@name=&amp;#x27;fullName&amp;#x27;]&amp;quot;, &amp;quot;value&amp;quot;: full_name},\n            {&amp;quot;name&amp;quot;: &amp;quot;address_line1&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//input[@name=&amp;#x27;addressline1&amp;#x27;]&amp;quot;, &amp;quot;value&amp;quot;: address_line1},\n            {&amp;quot;name&amp;quot;: &amp;quot;country&amp;quot;,\n             &amp;quot;xpath&amp;quot;: &amp;quot;//div[contains(@class, &amp;#x27;MuiAutocomplete-root&amp;#x27;) and .//label[text()=&amp;#x27;Country&amp;#x27;]]&amp;quot;,\n             &amp;quot;is_select&amp;quot;: True, &amp;quot;value&amp;quot;: country},\n            {&amp;quot;name&amp;quot;: &amp;quot;state&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//div[contains(@class, &amp;#x27;MuiAutocomplete-root&amp;#x27;) and .//label[text()=&amp;#x27;State&amp;#x27;]]&amp;quot;,\n             &amp;quot;is_select&amp;quot;: True, &amp;quot;value&amp;quot;: state},\n            {&amp;quot;name&amp;quot;: &amp;quot;city&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//div[contains(@class, &amp;#x27;MuiAutocomplete-root&amp;#x27;) and .//label[text()=&amp;#x27;City&amp;#x27;]]&amp;quot;,\n             &amp;quot;is_select&amp;quot;: True, &amp;quot;value&amp;quot;: city},\n            {&amp;quot;name&amp;quot;: &amp;quot;pincode&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//input[@name=&amp;#x27;zipCode&amp;#x27;]&amp;quot;, &amp;quot;value&amp;quot;: pincode}\n        ]\n    \n        card_fields = [\n            {&amp;quot;name&amp;quot;: &amp;quot;name_on_card&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//input[@name=&amp;#x27;nameOnCard&amp;#x27;]&amp;quot;, &amp;quot;value&amp;quot;: name_on_card},\n            {&amp;quot;name&amp;quot;: &amp;quot;valid_card_number&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//label[text()=&amp;#x27;Card Number&amp;#x27;]&amp;quot;, &amp;quot;value&amp;quot;: valid_card_number},\n            {&amp;quot;name&amp;quot;: &amp;quot;valid_expiry&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//label[text()=&amp;#x27;Expiry&amp;#x27;]&amp;quot;, &amp;quot;value&amp;quot;: valid_expiry},\n            {&amp;quot;name&amp;quot;: &amp;quot;CVC&amp;quot;, &amp;quot;xpath&amp;quot;: &amp;quot;//label[text()=&amp;#x27;CVC&amp;#x27;]&amp;quot;, &amp;quot;value&amp;quot;: cvc}\n        ]\n    \n        add_button_xpath = &amp;quot;//button[normalize-space()=&amp;#x27;Add&amp;#x27;]&amp;quot;\n        error_msg_xpath = &amp;quot;//div[@role=&amp;#x27;alert&amp;#x27;]//div[normalize-space()=&amp;#x27;Validation failed&amp;#x27;]&amp;quot;\n    \n        logger.info(f&amp;quot;[STEP] Entering User Details into the form...&amp;quot;)\n        # user details list of dictionary\n        try:\n            for i, step in enumerate(billing_fields):\n                logger.info(f&amp;quot;[STEP] Step {i + 1}: Entering {step[&amp;#x27;name&amp;#x27;]} ({step[&amp;#x27;value&amp;#x27;]})...&amp;quot;)\n    \n                # 1. FIND AND FILL FIELD\n                field_element = WebDriverWait(driver, 10).until(\n                    ec.presence_of_element_located((By.XPATH, step[&amp;#x27;xpath&amp;#x27;]))\n                )\n    \n                if step.get(&amp;quot;is_select&amp;quot;):\n                    # For Country/State/City: Find the input, type the value, and press ENTER\n                    input_field = field_element.find_element(By.TAG_NAME, &amp;quot;input&amp;quot;)\n    \n                    # Clear existing data first to ensure a clean type\n                    input_field.send_keys(Keys.CONTROL + &amp;quot;a&amp;quot;)\n                    input_field.send_keys(Keys.BACKSPACE)\n    \n                    # Type and hit Enter\n                    input_field.send_keys(step[&amp;#x27;value&amp;#x27;])\n                    time.sleep(delay)  # Give the UI a moment to register the text\n                    option_xpath = f&amp;quot;//li[@role=&amp;#x27;option&amp;#x27; and normalize-space()=&amp;#x27;{step[&amp;#x27;value&amp;#x27;]}&amp;#x27;]&amp;quot;\n    \n                    try:\n                        option_element = WebDriverWait(driver, 10).until(\n                            ec.element_to_be_clickable((By.XPATH, option_xpath))\n                        )\n                        option_element.click()\n                        logger.info(f&amp;quot;   - Selected &amp;#x27;{step[&amp;#x27;value&amp;#x27;]}&amp;#x27; from dropdown.&amp;quot;)\n    \n                    except Exception as e:\n                        logger.error(f&amp;quot;- Option &amp;#x27;{step[&amp;#x27;value&amp;#x27;]}&amp;#x27; did not appear in the list!: {str(e)}&amp;quot;)\n                        assert False\n                else:\n                    # Standard input (Full Name, Address, etc.)\n                    field_element.clear()\n                    field_element.send_keys(step[&amp;#x27;value&amp;#x27;])\n    \n                time.sleep(delay)\n            logger.info(&amp;quot;[SUCCESS] User Details Entered!&amp;quot;)\n    \n        except Exception as e:\n            logger.error(f&amp;quot;[CRITICAL] Error in entering user details: {str(e)}&amp;quot;)\n            assert False\n    \n        logger.info(f&amp;quot;[STEP] Entering Card Details into the form (for validation)...&amp;quot;)\n        try:\n            for i, step in enumerate(card_fields):\n                logger.info(f&amp;quot;[STEP] Step {i + 1}: Entering {step[&amp;#x27;name&amp;#x27;]} ({step[&amp;#x27;value&amp;#x27;]})...&amp;quot;)\n    \n                # 1. FIND AND FILL FIELD\n                field_element = WebDriverWait(driver, 10).until(\n                    ec.presence_of_element_located((By.XPATH, step[&amp;#x27;xpath&amp;#x27;]))\n                )\n    \n                field_element.clear()\n                field_element.send_keys(step[&amp;#x27;value&amp;#x27;])\n    \n                time.sleep(delay)\n    \n                # 2. CLICK ADD\n                add_btn = WebDriverWait(driver, 10).until(ec.element_to_be_clickable((By.XPATH, add_button_xpath)))\n                # JS click is safer if the &amp;#x27;Add&amp;#x27; button is near the bottom of the screen\n                driver.execute_script(&amp;quot;arguments[0].click();&amp;quot;, add_btn)\n                time.sleep(delay)\n                # 3. ASSERTION\n                if i &amp;lt; len(card_fields) - 1:\n                    # Check that error is still visible\n                    WebDriverWait(driver, 8).until(ec.visibility_of_element_located((By.XPATH, error_msg_xpath)))\n                    logger.info(f&amp;quot;[SUCCESS] &amp;#x27;Validation Failed&amp;#x27; Error persists after entering: {step[&amp;#x27;name&amp;#x27;]}.&amp;quot;)\n                else:\n                    # Final field: Error should disappear\n                    WebDriverWait(driver, 10).until(ec.invisibility_of_element_located((By.XPATH, error_msg_xpath)))\n                    logger.info(&amp;quot;[SUCCESS] Form valid, All card fields entered, user fields error cleared.&amp;quot;)\n                time.sleep(delay)\n    \n        except Exception as e:\n            logger.error(f&amp;quot;[CRITICAL] Error at Step {i + 1} ({step[&amp;#x27;name&amp;#x27;]}): {str(e)}&amp;quot;)\n&amp;gt;           assert False\nE           assert False\n\nTest_Cases\\test_027_verify_signin_mandatory_card_details.py:385: AssertionError\n\n------------------------------ Captured log setup ------------------------------\n2026-03-31 16:00:41 [INFO] ====== WebDriver manager ======\n2026-03-31 16:00:43 [INFO] Get LATEST chromedriver version for google-chrome\n2026-03-31 16:00:43 [INFO] Get LATEST chromedriver version for google-chrome\n2026-03-31 16:00:44 [INFO] Get LATEST chromedriver version for google-chrome\n2026-03-31 16:00:44 [INFO] WebDriver version 146.0.7680.165 selected\n2026-03-31 16:00:44 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip\n2026-03-31 16:00:44 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip\n2026-03-31 16:00:44 [INFO] Driver downloading response is 200\n2026-03-31 16:00:44 [INFO] Get LATEST chromedriver version for google-chrome\n2026-03-31 16:00:44 [INFO] Driver has been saved in cache [C:\\Users\\madhusudhanan\\.wdm\\drivers\\chromedriver\\win64\\146.0.7680.165]\n\n------------------------------ Captured log call -------------------------------\n2026-03-31 16:00:46 [INFO] [STEP] Opening URL: https://stage.sxalable.io/\n2026-03-31 16:01:11 [INFO] [INFO] Opened URL: https://stage.sxalable.io/\n2026-03-31 16:01:13 [INFO] [STEP] Entering (existing) workspace name for Sign in\n2026-03-31 16:01:13 [INFO] [INFO] Workspace entered: automation3003102020\n2026-03-31 16:01:13 [INFO] [STEP] Clicking Next button...\n2026-03-31 16:01:15 [INFO] [SUCCESS] Next button clicked...\n2026-03-31 16:01:17 [INFO] [STEP] Checking Sign in page URL...\n2026-03-31 16:01:17 [INFO] [SUCCESS] Checked Sign in page URL: https://stage.sxalable.io/login\n2026-03-31 16:01:17 [INFO] [STEP] Entering (existing) email, password\n2026-03-31 16:01:19 [INFO] [STEP] Entering email: veltris.demoacc+3003102020@gmail.com...\n2026-03-31 16:01:22 [INFO] [STEP] Entering pwd: Test@1234...\n2026-03-31 16:01:24 [INFO] [INFO] credentials entered...\n2026-03-31 16:01:24 [INFO] [STEP] Clicking Login button...\n2026-03-31 16:01:26 [INFO] [INFO] Clicked Login button...\n2026-03-31 16:01:26 [INFO] [STEP] Verifying Page navigated to OTP...\n2026-03-31 16:01:28 [INFO] [SUCCESS] Page navigated to OTP\n2026-03-31 16:01:30 [INFO] [STEP] Waiting for OTP page text...\n2026-03-31 16:01:32 [INFO] [SUCCESS] &amp;#x27;Enter Code&amp;#x27; found on OTP page \u2705\n2026-03-31 16:01:32 [INFO] [STEP] Fetching OTP from DB...\n2026-03-31 16:01:32 [INFO] [STEP] Starting SSH tunnel (using default SSH config)\n2026-03-31 16:01:33 [INFO] Connected (version 2.0, client OpenSSH_8.2p1)\n2026-03-31 16:01:34 [INFO] Authentication (publickey) successful!\n2026-03-31 16:01:34 [INFO] [SUCCESS] SSH tunnel established\n2026-03-31 16:01:38 [INFO] [DB SUCCESS] OTP fetched: 369626\n2026-03-31 16:01:38 [INFO] [SUCCESS] OTP fetched: 369626 \u2705\n2026-03-31 16:01:38 [INFO] [STEP] Entering OTP...\n2026-03-31 16:01:42 [INFO] [SUCCESS] OTP Entered! \u2705\n2026-03-31 16:01:44 [INFO] [STEP] Clicking Verify button...\n2026-03-31 16:01:44 [INFO] [SUCCESS] Verify button clicked \u2705\n2026-03-31 16:01:44 [INFO] [STEP] Verify page is navigated away from OTP page \u2705\n2026-03-31 16:01:45 [INFO] [SUCCESS] Page successfully navigated..\n2026-03-31 16:01:47 [INFO] [STEP] Verifying Landing URL after sign-in..\n2026-03-31 16:01:47 [INFO] [SUCCESS] Valid URL landed: https://stage.sxalable.io/devices/sxr \u2705\n2026-03-31 16:01:47 [INFO] [STEP] Verifying Continue Button is enabled (assuming user details previously entered)...\n2026-03-31 16:01:47 [INFO] [SUCCESS] Continue Button is enabled after entering user details \u2705\n2026-03-31 16:01:47 [INFO] [STEP] Clicking &amp;#x27;Continue to Plans&amp;#x27; button...\n2026-03-31 16:01:49 [INFO] [SUCCESS] Clicked &amp;#x27;Continue to Plans&amp;#x27; button...\n2026-03-31 16:01:49 [INFO] [STEP] Verifying available plans page opens ...\n2026-03-31 16:01:53 [INFO] [SUCCESS] &amp;#x27;Available Plans&amp;#x27; found on page \u2705\n2026-03-31 16:01:53 [INFO] [STEP] Clicking &amp;#x27;Select Plan&amp;#x27; button...\n2026-03-31 16:01:55 [INFO] [SUCCESS] &amp;#x27;Select plan&amp;#x27; button clicked \u2705\n2026-03-31 16:01:55 [INFO] [STEP] Waiting for Check out page text...\n2026-03-31 16:01:57 [INFO] [SUCCESS] &amp;#x27;Checkout&amp;#x27; found on page \u2705\n2026-03-31 16:01:59 [INFO] [STEP] Entering User Details into the form...\n2026-03-31 16:01:59 [INFO] [STEP] Step 1: Entering full_name (Automationuser)...\n2026-03-31 16:02:01 [INFO] [STEP] Step 2: Entering address_line1 (street)...\n2026-03-31 16:02:03 [INFO] [STEP] Step 3: Entering country (India)...\n2026-03-31 16:02:05 [INFO]    - Selected &amp;#x27;India&amp;#x27; from dropdown.\n2026-03-31 16:02:07 [INFO] [STEP] Step 4: Entering state (Tamil Nadu)...\n2026-03-31 16:02:10 [INFO]    - Selected &amp;#x27;Tamil Nadu&amp;#x27; from dropdown.\n2026-03-31 16:02:12 [INFO] [STEP] Step 5: Entering city (Chennai)...\n2026-03-31 16:02:14 [INFO]    - Selected &amp;#x27;Chennai&amp;#x27; from dropdown.\n2026-03-31 16:02:16 [INFO] [STEP] Step 6: Entering pincode (600073)...\n2026-03-31 16:02:18 [INFO] [SUCCESS] User Details Entered!\n2026-03-31 16:02:18 [INFO] [STEP] Entering Card Details into the form (for validation)...\n2026-03-31 16:02:18 [INFO] [STEP] Step 1: Entering name_on_card (Automation card)...\n2026-03-31 16:02:22 [INFO] [SUCCESS] &amp;#x27;Validation Failed&amp;#x27; Error persists after entering: name_on_card.\n2026-03-31 16:02:24 [INFO] [STEP] Step 2: Entering valid_card_number (4111 1111 1111 1111)...\n2026-03-31 16:02:25 [ERROR] [CRITICAL] Error at Step 2 (valid_card_number): Message: invalid element state\n  (Session info: chrome=146.0.7680.165)\nStacktrace:\n\tchromedriver!GetHandleVerifier [0x9bcdf3+10b03]\n\tchromedriver!GetHandleVerifier [0x9bcf24+10c34]\n\tchromedriver!(No symbol) [0x7a1f5e]\n\tchromedriver!(No symbol) [0x7e37ae]\n\tchromedriver!(No symbol) [0x80db0c]\n\tchromedriver!(No symbol) [0x7e16e4]\n\tchromedriver!(No symbol) [0x80dcd4]\n\tchromedriver!(No symbol) [0x82a9a5]\n\tchromedriver!(No symbol) [0x80d8a6]\n\tchromedriver!(No symbol) [0x7e0229]\n\tchromedriver!(No symbol) [0x7e0fe4]\n\tchromedriver!GetHandleVerifier [0xc248b9+2785c9]\n\tchromedriver!GetHandleVerifier [0xc1feb5+273bc5]\n\tchromedriver!GetHandleVerifier [0xc3e06b+291d7b]\n\tchromedriver!GetHandleVerifier [0x9d5cc8+299d8]\n\tchromedriver!GetHandleVerifier [0x9dd9fd+3170d]\n\tchromedriver!GetHandleVerifier [0x9c58c8+195d8]\n\tchromedriver!GetHandleVerifier [0x9c5a92+197a2]\n\tchromedriver!GetHandleVerifier [0x9aee9a+2baa]\n\tKERNEL32!BaseThreadInitThunk [0x7656fa29+19]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x775b7a9e+11e]\n\tntdll!RtlGetAppContainerNamedObjectPath [0x775b7a6e+ee]\n\n\n---------------------------------- Screenshot ----------------------------------\nSaved at: C:\\Users\\madhusudhanan\\PycharmProjects\\Sxalable\\logs\\screenshots\\test_signin_mandatory_card_details_20260331_160225.png&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;report_20260331_160040.html&#34;}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(data.renderCollapsed)]
+        const collapsedIds = []
+        const tests = Object.values(data.tests).flat().map((test, index) => {
+            const collapsed = collapsedCategories.includes(test.result.toLowerCase())
+            const id = `test_${index}`
+            if (collapsed) {
+                collapsedIds.push(id)
+            }
+            return {
+                ...test,
+                id,
+                collapsed,
+            }
+        })
+        const dataBlob = { ...data, tests }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+        setCollapsedIds(collapsedIds)
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+
+    get environment() {
+        return this.renderData.environment
+    }
+
+    get initialSort() {
+        return this.data.initialSort
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.getElementById('template_environment_row')
+const templateResult = document.getElementById('template_results-table__tbody')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getResultTBody: ({ testId, id, log, extras, resultsTableRow, tableHtml, result, collapsed }) => {
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(result.toLowerCase())
+        resultBody.querySelector('tbody').id = testId
+        resultBody.querySelector('.collapsible').dataset.id = id
+
+        resultsTableRow.forEach((html) => {
+            const t = document.createElement('template')
+            t.innerHTML = html
+            resultBody.querySelector('.collapsible').appendChild(t.content)
+        })
+
+        if (log) {
+            // Wrap lines starting with "E" with span.error to color those lines red
+            const wrappedLog = log.replace(/^E.*$/gm, (match) => `<span class="error">${match}</span>`)
+            resultBody.querySelector('.log').innerHTML = wrappedLog
+        } else {
+            resultBody.querySelector('.log').remove()
+        }
+
+        if (collapsed) {
+            resultBody.querySelector('.collapsible > .col-result')?.classList.add('collapsed')
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        } else {
+            resultBody.querySelector('.collapsible > .col-result')?.classList.remove('collapsed')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setup(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+module.exports = {
+    dom,
+    htmlToElements,
+    find,
+    findAll,
+}
+
+},{"./mediaviewer.js":6}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ result }) => filter.includes(result.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+
+    const sortColumn = storageModule.getSort()
+    doSort(sortColumn, true)
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./sort.js":7,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents, renderStatic } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.getElementById('data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    renderStatic()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { dom, find, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const {
+    getVisible,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    getSortDirection,
+    possibleFilters,
+} = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderEnvironmentTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.getElementById('environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderEnvironmentTable()
+}
+
+const addItemToggleListener = (elem) => {
+    elem.addEventListener('click', ({ target }) => {
+        const id = target.parentElement.dataset.id
+        manager.toggleCollapsedItem(id)
+
+        const collapsedIds = getCollapsedIds()
+        if (collapsedIds.includes(id)) {
+            const updated = collapsedIds.filter((item) => item !== id)
+            setCollapsedIds(updated)
+        } else {
+            collapsedIds.push(id)
+            setCollapsedIds(collapsedIds)
+        }
+        redraw()
+    })
+}
+
+const renderContent = (tests) => {
+    const sortAttr = getSort(manager.initialSort)
+    const sortAsc = JSON.parse(getSortDirection())
+    const rows = tests.map(dom.getResultTBody)
+    const table = document.getElementById('results-table')
+    const tableHeader = document.getElementById('results-table-head')
+
+    const newTable = document.createElement('table')
+    newTable.id = 'results-table'
+
+    // remove all sorting classes and set the relevant
+    findAll('.sortable', tableHeader).forEach((elem) => elem.classList.remove('asc', 'desc'))
+    tableHeader.querySelector(`.sortable[data-column-type="${sortAttr}"]`)?.classList.add(sortAsc ? 'desc' : 'asc')
+    newTable.appendChild(tableHeader)
+
+    if (!rows.length) {
+        const emptyTable = document.getElementById('template_results-table__body--empty').content.cloneNode(true)
+        newTable.appendChild(emptyTable)
+    } else {
+        rows.forEach((row) => {
+            if (!!row) {
+                findAll('.collapsible td:not(.col-links', row).forEach(addItemToggleListener)
+                find('.logexpander', row).addEventListener('click',
+                    (evt) => evt.target.parentNode.classList.toggle('expanded'),
+                )
+                newTable.appendChild(row)
+            }
+        })
+    }
+
+    table.replaceWith(newTable)
+}
+
+const renderDerived = () => {
+    const currentFilter = getVisible()
+    possibleFilters.forEach((result) => {
+        const input = document.querySelector(`input[data-test-result="${result}"]`)
+        input.checked = currentFilter.includes(result)
+    })
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        const collapsedIds = getCollapsedIds()
+        const updated = manager.renderData.tests.map((test) => {
+            return {
+                ...test,
+                collapsed: collapsedIds.includes(test.id),
+            }
+        })
+        manager.setRender(updated)
+        redraw()
+    }
+
+    const header = document.getElementById('environment-header')
+    header.addEventListener('click', () => {
+        const table = document.getElementById('environment')
+        table.classList.toggle('hidden')
+        header.classList.toggle('collapsed')
+    })
+
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.addEventListener('click', filterColumn)
+    })
+
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+
+    document.getElementById('show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        setCollapsedIds([])
+        redraw()
+    })
+    document.getElementById('hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        const allIds = manager.renderData.tests.map((test) => test.id)
+        setCollapsedIds(allIds)
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset } = manager
+
+    renderContent(testSubset)
+    renderDerived()
+}
+
+module.exports = {
+    redraw,
+    bindEvents,
+    renderStatic,
+}
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setup = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const container = resultBody.querySelector('.media-container')
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+    if (assets.length === 1) {
+        container.classList.add('media-container--fullscreen')
+    } else {
+        leftArrow.addEventListener('click', moveLeft)
+        rightArrow.addEventListener('click', doRight)
+    }
+    imageEl.addEventListener('click', openImg)
+}
+
+module.exports = {
+    setup,
+}
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending, customOrder) => {
+    let sorted
+    if (customOrder) {
+        sorted = list.sort((a, b) => {
+            const aValue = a.result.toLowerCase()
+            const bValue = b.result.toLowerCase()
+
+            const aIndex = customOrder.findIndex((item) => item.toLowerCase() === aValue)
+            const bIndex = customOrder.findIndex((item) => item.toLowerCase() === bValue)
+
+            // Compare the indices to determine the sort order
+            return aIndex - bIndex
+        })
+    } else {
+        sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+    }
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const durationSort = (list, ascending) => {
+    const parseDuration = (duration) => {
+        if (duration.includes(':')) {
+            // If it's in the format "HH:mm:ss"
+            const [hours, minutes, seconds] = duration.split(':').map(Number)
+            return (hours * 3600 + minutes * 60 + seconds) * 1000
+        } else {
+            // If it's in the format "nnn ms"
+            return parseInt(duration)
+        }
+    }
+    const sorted = list.sort((a, b) => parseDuration(a['duration']) - parseDuration(b['duration']))
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort(manager.initialSort)
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const initialOrder = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed', 'Skipped', 'Passed']
+
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    if (type?.toLowerCase() === 'original') {
+        manager.setRender(list)
+    } else {
+        let sortedList
+        switch (type) {
+        case 'duration':
+            sortedList = durationSort(list, ascending)
+            break
+        case 'result':
+            sortedList = genericSort(list, type, ascending, initialOrder)
+            break
+        default:
+            sortedList = genericSort(list, type, ascending)
+            break
+        }
+        manager.setRender(sortedList)
+    }
+}
+
+const doSort = (type, skipDirection) => {
+    const newSortType = storageModule.getSort(manager.initialSort) !== type
+    const currentAsc = storageModule.getSortDirection()
+    let ascending
+    if (skipDirection) {
+        ascending = currentAsc
+    } else {
+        ascending = newSortType ? false : !currentAsc
+    }
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    const list = manager.testSubset
+    const sortedList = type === 'duration' ? durationSort(list, ascending) : genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+module.exports = {
+    doInitSort,
+    doSort,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFilters = [
+    'passed',
+    'skipped',
+    'failed',
+    'error',
+    'xfailed',
+    'xpassed',
+    'rerun',
+]
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible')
+    const lower = (item) => {
+        const lowerItem = item.toLowerCase()
+        if (possibleFilters.includes(lowerItem)) {
+            return lowerItem
+        }
+        return null
+    }
+    return settings === null ?
+        possibleFilters :
+        [...new Set(settings?.split(',').map(lower).filter((item) => item))]
+}
+
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFilters]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',').filter(Boolean) ||
+        [...possibleFilters]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFilters.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = (initialSort) => {
+    const url = new URL(window.location.href)
+    let sort = new URLSearchParams(url.search).get('sort')
+    if (!sort) {
+        sort = initialSort || 'result'
+    }
+    return sort
+}
+
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = (renderCollapsed) => {
+    let categories
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        switch (true) {
+        case !renderCollapsed && collapsedItems === null:
+            categories = ['passed']
+            break
+        case collapsedItems?.length === 0 || /^["']{2}$/.test(collapsedItems):
+            categories = []
+            break
+        case /^all$/.test(collapsedItems) || collapsedItems === null && /^all$/.test(renderCollapsed):
+            categories = [...possibleFilters]
+            break
+        default:
+            categories = collapsedItems?.split(',').map((item) => item.toLowerCase()) || renderCollapsed
+            break
+        }
+    } else {
+        categories = []
+    }
+    return categories
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc')) || false
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+const getCollapsedIds = () => JSON.parse(sessionStorage.getItem('collapsedIds')) || []
+const setCollapsedIds = (list) => sessionStorage.setItem('collapsedIds', JSON.stringify(list))
+
+module.exports = {
+    getVisible,
+    hideCategory,
+    showCategory,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    setSort,
+    getSortDirection,
+    setSortDirection,
+    getCollapsedCategory,
+    possibleFilters,
+}
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+  </body>
+</html>

@@ -1,0 +1,9 @@
+2026-04-01 21:20:11 [INFO] ====== WebDriver manager ======
+2026-04-01 21:20:12 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-01 21:20:12 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-01 21:20:12 [INFO] Driver [C:\Users\madhusudhanan\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe] found in cache
+2026-04-01 21:20:14 [INFO] [STEP] Opening URL: https://stage.sxalable.io/
+2026-04-01 21:20:49 [INFO] [SUCCESS] Opened URL: https://stage.sxalable.io/
+2026-04-01 21:20:49 [INFO] [STEP] Locating element: ('partial link text', 'Sign in')
+2026-04-01 21:20:49 [INFO] [SUCCESS] Found element: ('partial link text', 'Sign in')
+2026-04-01 21:20:49 [INFO] [ACTION] Clicked element: ('partial link text', 'Sign in')

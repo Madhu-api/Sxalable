@@ -1,0 +1,40 @@
+2026-03-30 09:58:36 [INFO] ====== WebDriver manager ======
+2026-03-30 09:58:40 [INFO] Get LATEST chromedriver version for google-chrome
+2026-03-30 09:58:40 [INFO] Get LATEST chromedriver version for google-chrome
+2026-03-30 09:58:40 [INFO] Get LATEST chromedriver version for google-chrome
+2026-03-30 09:58:40 [INFO] WebDriver version 146.0.7680.165 selected
+2026-03-30 09:58:40 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip
+2026-03-30 09:58:40 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip
+2026-03-30 09:58:41 [INFO] Driver downloading response is 200
+2026-03-30 09:58:41 [INFO] Get LATEST chromedriver version for google-chrome
+2026-03-30 09:58:41 [INFO] Driver has been saved in cache [C:\Users\madhusudhanan\.wdm\drivers\chromedriver\win64\146.0.7680.165]
+2026-03-30 09:58:43 [INFO] [STEP] Opening URL: https://stage.sxalable.io/
+2026-03-30 09:59:13 [INFO] [STEP] Looking for 'Sign up' link
+2026-03-30 09:59:14 [INFO] [STEP] Clicked 'Sign up'
+2026-03-30 09:59:16 [INFO] [STEP] Waiting for signup page
+2026-03-30 09:59:18 [INFO] [SUCCESS] Sign up page loaded. 'Sign Up' found on signup page ✅
+2026-03-30 09:59:18 [INFO] [STEP] Entering email, password and workspace name
+2026-03-30 09:59:20 [INFO] [STEP] Entering email veltris.demoacc+3003095843@gmail.com...
+2026-03-30 09:59:22 [INFO] [STEP] Entering pwd Test@1234...
+2026-03-30 09:59:24 [INFO] [STEP] Entering workspace name automation3003095843...
+2026-03-30 09:59:25 [INFO] [STEP] Clicking Next button...
+2026-03-30 09:59:29 [INFO] [SUCCESS] Page navigated to OTP
+2026-03-30 09:59:31 [INFO] [STEP] Waiting for OTP page text...
+2026-03-30 09:59:33 [INFO] [SUCCESS] 'Enter Code' found on OTP page ✅
+2026-03-30 09:59:33 [INFO] [STEP] Fetching OTP from DB...
+2026-03-30 09:59:33 [INFO] [STEP] Starting SSH tunnel (using default SSH config)
+2026-03-30 09:59:33 [INFO] Connected (version 2.0, client OpenSSH_8.2p1)
+2026-03-30 09:59:35 [INFO] Authentication (publickey) successful!
+2026-03-30 09:59:35 [INFO] [SUCCESS] SSH tunnel established
+2026-03-30 09:59:39 [INFO] [DB SUCCESS] OTP fetched: 154490
+2026-03-30 09:59:39 [INFO] [SUCCESS] OTP fetched: 154490 ✅
+2026-03-30 09:59:39 [INFO] [STEP] Entering OTP...
+2026-03-30 09:59:43 [INFO] [SUCCESS] OTP Entered! ✅
+2026-03-30 09:59:45 [INFO] [STEP] Clicking Verify button...
+2026-03-30 09:59:46 [INFO] [SUCCESS] Verify button clicked ✅
+2026-03-30 09:59:46 [INFO] [STEP] Verify page is navigated away from OTP page ✅
+2026-03-30 09:59:46 [INFO] [SUCCESS] Page navigated..
+2026-03-30 09:59:48 [INFO] [STEP] Verifying 'Enter your details' is present
+2026-03-30 09:59:50 [INFO] [SUCCESS] 'Enter your details' found ✅. Sign up successful
+2026-03-30 09:59:50 [INFO] [STEP] store this email and workspace name for login for further sign in test cases
+2026-03-30 09:59:50 [INFO] [INFO] Test data (email and workspace) saved at: C:\Users\madhusudhanan\PycharmProjects\Sxalable\input_variables\test_signin_credentials.json for further use

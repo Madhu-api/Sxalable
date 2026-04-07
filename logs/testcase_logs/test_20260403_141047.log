@@ -1,0 +1,40 @@
+2026-04-03 14:10:47 [INFO] ====== WebDriver manager ======
+2026-04-03 14:10:49 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-03 14:10:49 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-03 14:10:49 [INFO] Driver [C:\Users\madhusudhanan\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe] found in cache
+2026-04-03 14:10:50 [INFO] [STEP] Opening URL: https://stage.sxalable.io/
+2026-04-03 14:11:16 [INFO] [SUCCESS] Opened URL: https://stage.sxalable.io/
+2026-04-03 14:11:16 [INFO] [STEP] Locating element: ('partial link text', 'Sign up')
+2026-04-03 14:11:16 [INFO] [SUCCESS] Found element: ('partial link text', 'Sign up')
+2026-04-03 14:11:16 [INFO] [ACTION] Clicked element: ('partial link text', 'Sign up')
+2026-04-03 14:11:16 [INFO] [STEP] Waiting for text: 'Sign Up'
+2026-04-03 14:11:16 [INFO] [SUCCESS] Text 'Sign Up' found on page ✅
+2026-04-03 14:11:16 [INFO] [STEP] Entering email, password and workspace name
+2026-04-03 14:11:18 [INFO] [STEP] Entering  email: veltris.demoacc+0304141050@gmail.com...
+2026-04-03 14:11:18 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-03 14:11:18 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-03 14:11:18 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-03 14:11:19 [INFO] [STEP] Entered  email...
+2026-04-03 14:11:21 [INFO] [STEP] Entering  password: Test@1234...
+2026-04-03 14:11:21 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-03 14:11:21 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-03 14:11:21 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-03 14:11:21 [INFO] [STEP] Entered  password...
+2026-04-03 14:11:23 [INFO] [STEP] Entering  workspace name: automation0204211633...
+2026-04-03 14:11:23 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'workspace name')]")
+2026-04-03 14:11:23 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'workspace name')]")
+2026-04-03 14:11:23 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'workspace name')]")
+2026-04-03 14:11:23 [INFO] [STEP] Entered  workspace name...
+2026-04-03 14:11:25 [INFO] [STEP] Clicking Next button...
+2026-04-03 14:11:25 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-03 14:11:25 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-03 14:11:25 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-03 14:11:25 [INFO] [STEP] Clicked Next button...
+2026-04-03 14:11:25 [INFO] [STEP] Locating 'workspace already exists Error'...
+2026-04-03 14:11:25 [INFO] [STEP] Locating element: ('xpath', "//div[@role='alert']//div[normalize-space()='workspace already exists']")
+2026-04-03 14:11:26 [INFO] [SUCCESS] Found element: ('xpath', "//div[@role='alert']//div[normalize-space()='workspace already exists']")
+2026-04-03 14:11:26 [INFO] [STEP] Located 'workspace already exists Error'...'
+2026-04-03 14:11:26 [INFO] [STEP] Verify current url does not change after error..
+2026-04-03 14:11:26 [INFO] [STEP] Waiting for URL to change from: https://stage.sxalable.io/signup
+2026-04-03 14:11:36 [ERROR] [TIMEOUT] URL did not change from https://stage.sxalable.io/signup within 10s ❌
+2026-04-03 14:11:36 [INFO] [SUCCESS] Verified: User stayed on the same page https://stage.sxalable.io/signup as expected. ✅

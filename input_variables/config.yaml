@@ -1,0 +1,80 @@
+app:
+  url: https://stage.sxalable.io/
+  expected_welcome_text: "Welcome to Sxalable"
+  expected_signup_text: "Sign Up"
+  expected_signin_text: "Sign in"
+  expected_workspace_missing_text: "workspace name is required"
+  expected_workspace_invalid_text: "workspace name must be 4-20 characters, consisting of letters, digits, and must begin with a letter"
+  expected_email_missing_text: "Email is required"
+  expected_pwd_missing_text: "Password is required"
+  expected_password_invalid_text: "Invalid password. It must have at least 8 characters with atleast 1 alphabet, 1 number and 1 special character"
+  expected_otp_page_text: "Enter Code"
+  expected_available_plans_text: "Available Plans"
+  expected_subscription_incomplete_text: "Your subscription setup is incomplete"
+  expected_checkout_page_text: "Checkout"
+  expected_welcome_msg_text: "Welcome to Sxalable"
+  email: "veltris.demoacc@gmail.com"
+  pwd: "Test@1234"
+  change_pwd: "Test@12345"
+  workspace: "automation"
+  delay: 2
+  invalid_workspace_list:
+    - abc
+    - toolongabcdefghijklmnopqrstuvwxyz
+    - 1abcd
+    - sp@cd
+  invalid_password_list:
+    - Test@12
+    - Test12345
+    - 12345@678
+    - Test@test
+  unsubscribe_disable_tab_list:
+    - Dashboard
+    - xWAN
+    - xSecurity
+    - Organizations
+    - IAM
+  unsubscribe_enable_tab_list:
+    - SxR
+    - Administration
+  subscribe_enable_tab_list:
+    - Dashboard
+    - SxR
+    - xWAN
+    - xSecurity
+    - Organizations
+    - Administration
+
+db:
+  host: "10.111.0.3"
+  database: "sxalable-dev"
+  user: "sxalable-dev"
+  password: "4>rRZA9aID"
+  port: 5432
+
+ssh:
+  host: "104.196.181.43"
+  port: 22
+  username: "ubuntu"
+
+user:
+  first_name: "Automationuser"
+  company_name: "Automationcompany"
+  company_address: "Hyderabad"
+  user_details:
+     full_name: "Automationuser"
+     address_line1: "street"
+     country: "India"
+     state: "Tamil Nadu"
+     city: "Chennai"
+     pincode: "600073"
+  card_details:
+     name_on_card: "Automation card"
+     valid_card_number: "4111 1111 1111 1111"
+     valid_expiry: "12/27"
+     invalid_card_number: "4222 2222 2222 2222"
+     invalid_expiry: "12/25"
+     cvc: "123"
+
+SxR:
+  name: "AutomationRouter"

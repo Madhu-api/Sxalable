@@ -1,0 +1,57 @@
+2026-04-02 21:16:29 [INFO] ====== WebDriver manager ======
+2026-04-02 21:16:30 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-02 21:16:31 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-02 21:16:31 [INFO] Driver [C:\Users\madhusudhanan\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe] found in cache
+2026-04-02 21:16:33 [INFO] [STEP] Opening URL: https://stage.sxalable.io/
+2026-04-02 21:17:08 [INFO] [SUCCESS] Opened URL: https://stage.sxalable.io/
+2026-04-02 21:17:08 [INFO] [STEP] Locating element: ('partial link text', 'Sign up')
+2026-04-02 21:17:08 [INFO] [SUCCESS] Found element: ('partial link text', 'Sign up')
+2026-04-02 21:17:08 [INFO] [ACTION] Clicked element: ('partial link text', 'Sign up')
+2026-04-02 21:17:08 [INFO] [STEP] Waiting for text: 'Sign Up'
+2026-04-02 21:17:08 [INFO] [SUCCESS] Text 'Sign Up' found on page ✅
+2026-04-02 21:17:08 [INFO] [STEP] Entering email, password and workspace name
+2026-04-02 21:17:10 [INFO] [STEP] Entering  email: veltris.demoacc+0204211633@gmail.com...
+2026-04-02 21:17:10 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-02 21:17:10 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-02 21:17:10 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-02 21:17:10 [INFO] [STEP] Entered  email...
+2026-04-02 21:17:12 [INFO] [STEP] Entering  password: Test@1234...
+2026-04-02 21:17:12 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-02 21:17:12 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-02 21:17:12 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-02 21:17:12 [INFO] [STEP] Entered  password...
+2026-04-02 21:17:14 [INFO] [STEP] Entering  workspace name: automation0204211633...
+2026-04-02 21:17:14 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'workspace name')]")
+2026-04-02 21:17:14 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'workspace name')]")
+2026-04-02 21:17:15 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'workspace name')]")
+2026-04-02 21:17:15 [INFO] [STEP] Entered  workspace name...
+2026-04-02 21:17:17 [INFO] [STEP] Clicking Next button...
+2026-04-02 21:17:17 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-02 21:17:17 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-02 21:17:17 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-02 21:17:17 [INFO] [STEP] Waiting for URL to change from: https://stage.sxalable.io/signup
+2026-04-02 21:17:18 [INFO] [SUCCESS] URL changed to: https://stage.sxalable.io/otp ✅
+2026-04-02 21:17:18 [INFO] [STEP] Waiting for URL to contain: 'https://stage.sxalable.io/otp'
+2026-04-02 21:17:18 [INFO] [SUCCESS] Reached target URL: https://stage.sxalable.io/otp ✅
+2026-04-02 21:17:18 [INFO] [STEP] Fetching OTP from DB...
+2026-04-02 21:17:18 [INFO] [STEP] Starting SSH tunnel (using default SSH config)
+2026-04-02 21:17:18 [INFO] Connected (version 2.0, client OpenSSH_8.2p1)
+2026-04-02 21:17:20 [INFO] Authentication (publickey) successful!
+2026-04-02 21:17:20 [INFO] [SUCCESS] SSH tunnel established
+2026-04-02 21:17:24 [INFO] [DB SUCCESS] OTP fetched: 268686
+2026-04-02 21:17:24 [INFO] [SUCCESS] OTP fetched: 268686 ✅
+2026-04-02 21:17:24 [INFO] [STEP] Entering OTP...
+2026-04-02 21:17:28 [INFO] [SUCCESS] OTP Entered! ✅
+2026-04-02 21:17:30 [INFO] [STEP] Clicking Verify button...
+2026-04-02 21:17:30 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Verify']")
+2026-04-02 21:17:30 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Verify']")
+2026-04-02 21:17:30 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Verify']")
+2026-04-02 21:17:30 [INFO] [STEP] Waiting for URL to change from: https://stage.sxalable.io/otp
+2026-04-02 21:17:34 [INFO] [SUCCESS] URL changed to: https://stage.sxalable.io/devices/sxr ✅
+2026-04-02 21:17:34 [INFO] [STEP] Waiting for URL to contain: 'https://stage.sxalable.io/devices/sxr'
+2026-04-02 21:17:34 [INFO] [SUCCESS] Reached target URL: https://stage.sxalable.io/devices/sxr ✅
+2026-04-02 21:17:34 [INFO] [SUCCESS] Page navigated..
+2026-04-02 21:17:36 [INFO] [STEP] Waiting for text: 'Enter your details'
+2026-04-02 21:17:36 [INFO] [SUCCESS] Text 'Enter your details' found on page ✅
+2026-04-02 21:17:36 [INFO] [STEP] store this email and workspace name for login for further sign in test cases
+2026-04-02 21:17:36 [INFO] [INFO] Test data (email and workspace) saved at: C:\Users\madhusudhanan\PycharmProjects\Sxalable\input_variables\test_signin_credentials.json for further use

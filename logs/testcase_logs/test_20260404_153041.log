@@ -1,0 +1,43 @@
+2026-04-04 15:30:41 [INFO] ====== WebDriver manager ======
+2026-04-04 15:30:42 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-04 15:30:43 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-04 15:30:43 [INFO] Driver [C:\Users\madhusudhanan\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe] found in cache
+2026-04-04 15:30:44 [INFO] [STEP] Opening URL: https://stage.sxalable.io/
+2026-04-04 15:31:17 [INFO] [SUCCESS] Opened URL: https://stage.sxalable.io/
+2026-04-04 15:31:17 [INFO] [STEP] Entering (non existing) workspace name
+2026-04-04 15:31:17 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-04 15:31:17 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-04 15:31:17 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-04 15:31:19 [INFO] [INFO] Workspace entered: automation0204211633
+2026-04-04 15:31:21 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-04 15:31:21 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-04 15:31:21 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-04 15:31:21 [INFO] [SUCCESS] Next button clicked...
+2026-04-04 15:31:23 [INFO] [STEP] Checking Sign in page URL...
+2026-04-04 15:31:23 [INFO] [STEP] Waiting for URL to contain: 'https://stage.sxalable.io/login'
+2026-04-04 15:31:23 [INFO] [SUCCESS] Reached target URL: https://stage.sxalable.io/login ✅
+2026-04-04 15:31:23 [INFO] [STEP] Checked Sign in page URL...
+2026-04-04 15:31:23 [INFO] [INFO] Initial URL before Sign in action: https://stage.sxalable.io/login
+2026-04-04 15:31:23 [INFO] [STEP] Entering email, password
+2026-04-04 15:31:23 [INFO] [STEP] Attempting to enter email...
+2026-04-04 15:31:23 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-04 15:31:23 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-04 15:31:23 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-04 15:31:24 [INFO] [SUCCESS] email entered ✅
+2026-04-04 15:31:26 [INFO] [STEP] Attempting to enter password...
+2026-04-04 15:31:26 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-04 15:31:26 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-04 15:31:26 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-04 15:31:26 [INFO] [SUCCESS] password entered ✅
+2026-04-04 15:31:28 [INFO] [STEP] Entered email, password
+2026-04-04 15:31:28 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Login']")
+2026-04-04 15:31:28 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Login']")
+2026-04-04 15:31:28 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Login']")
+2026-04-04 15:31:28 [INFO] [INFO] Clicked Login button...
+2026-04-04 15:31:30 [INFO] [STEP] Locating element: ('xpath', "//div[@role='alert']//div[normalize-space()='User not found']")
+2026-04-04 15:31:30 [INFO] [SUCCESS] Found element: ('xpath', "//div[@role='alert']//div[normalize-space()='User not found']")
+2026-04-04 15:31:30 [INFO] [INFO] located User Not Found error as expected...
+2026-04-04 15:31:32 [INFO] [STEP] Verify current url does not change..
+2026-04-04 15:31:32 [INFO] [STEP] Waiting for URL to change from: https://stage.sxalable.io/login
+2026-04-04 15:31:42 [ERROR] [TIMEOUT] URL did not change from https://stage.sxalable.io/login within 10s ❌
+2026-04-04 15:31:42 [INFO] [SUCCESS] Verified: User stayed on the same page https://stage.sxalable.io/login after error as expected. ✅

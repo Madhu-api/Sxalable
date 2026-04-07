@@ -1,0 +1,150 @@
+2026-04-06 11:28:21 [INFO] ====== WebDriver manager ======
+2026-04-06 11:28:22 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-06 11:28:22 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-06 11:28:22 [INFO] Driver [C:\Users\madhusudhanan\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe] found in cache
+2026-04-06 11:28:24 [INFO] [STEP] Opening URL: https://stage.sxalable.io/
+2026-04-06 11:28:51 [INFO] [SUCCESS] Opened URL: https://stage.sxalable.io/
+2026-04-06 11:28:51 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-06 11:28:51 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-06 11:28:51 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-06 11:28:53 [INFO] [INFO] Workspace entered: automation0204211633
+2026-04-06 11:28:55 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-06 11:28:55 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-06 11:28:55 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-06 11:28:55 [INFO] [SUCCESS] Next button clicked...
+2026-04-06 11:28:57 [INFO] [STEP] Checking Sign in page URL...
+2026-04-06 11:28:57 [INFO] [STEP] Waiting for URL to contain: 'https://stage.sxalable.io/login'
+2026-04-06 11:28:57 [INFO] [SUCCESS] Reached target URL: https://stage.sxalable.io/login ✅
+2026-04-06 11:28:57 [INFO] [STEP] Checked Sign in page URL...
+2026-04-06 11:28:57 [INFO] [STEP] Locating 'Forgot Password' option...
+2026-04-06 11:28:57 [INFO] [STEP] Locating element: ('xpath', "//h5[contains(normalize-space(),'Forgot Password?')]")
+2026-04-06 11:28:57 [INFO] [SUCCESS] Found element: ('xpath', "//h5[contains(normalize-space(),'Forgot Password?')]")
+2026-04-06 11:28:57 [INFO] [SUCCESS] Forgot Password button located...
+2026-04-06 11:28:57 [INFO] [STEP] Clicking Forgot Password 'Click Here' button...
+2026-04-06 11:28:57 [INFO] [STEP] Locating element: ('xpath', "//a[@href='/forgotpassword' and normalize-space()='Click Here']")
+2026-04-06 11:28:57 [INFO] [SUCCESS] Found element: ('xpath', "//a[@href='/forgotpassword' and normalize-space()='Click Here']")
+2026-04-06 11:28:57 [INFO] [ACTION] Clicked element: ('xpath', "//a[@href='/forgotpassword' and normalize-space()='Click Here']")
+2026-04-06 11:28:57 [INFO] [SUCCESS] Click Here button located...
+2026-04-06 11:28:59 [INFO] [STEP] Checking Forgot password page URL...
+2026-04-06 11:28:59 [INFO] [STEP] Waiting for URL to contain: 'https://stage.sxalable.io/forgotpassword'
+2026-04-06 11:28:59 [INFO] [SUCCESS] Reached target URL: https://stage.sxalable.io/forgotpassword ✅
+2026-04-06 11:28:59 [INFO] [STEP] Checked Forgot password page URL...
+2026-04-06 11:28:59 [INFO] [STEP] Locating Enter Your email option...
+2026-04-06 11:29:01 [INFO] [STEP] Locating element: ('xpath', "//input[@placeholder='Enter your email']")
+2026-04-06 11:29:01 [INFO] [SUCCESS] Found element: ('xpath', "//input[@placeholder='Enter your email']")
+2026-04-06 11:29:01 [INFO] [ACTION] Clicked element: ('xpath', "//input[@placeholder='Enter your email']")
+2026-04-06 11:29:01 [INFO] [SUCCESS] Enter Your Email has been located/Clicked...
+2026-04-06 11:29:01 [INFO] [STEP] Entering an invalid Email for the given workspace: veltris.demoacc+0604112824@gmail.com...
+2026-04-06 11:29:01 [INFO] [SUCCESS] (Invalid) Email entered
+2026-04-06 11:29:03 [INFO] [STEP] Clicking Generate Login code button...
+2026-04-06 11:29:03 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Generate Login code']")
+2026-04-06 11:29:04 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Generate Login code']")
+2026-04-06 11:29:04 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Generate Login code']")
+2026-04-06 11:29:06 [INFO] [STEP] Verifying 'User not found' error msg...
+2026-04-06 11:29:06 [INFO] [STEP] Locating element: ('xpath', "//div[@role='alert']//div[normalize-space()='User not found. Please check your email.']")
+2026-04-06 11:29:06 [INFO] [SUCCESS] Found element: ('xpath', "//div[@role='alert']//div[normalize-space()='User not found. Please check your email.']")
+2026-04-06 11:29:06 [INFO] [ACTION] Clicked element: ('xpath', "//div[@role='alert']//div[normalize-space()='User not found. Please check your email.']")
+2026-04-06 11:29:06 [INFO] [SUCCESS] User Not Found error populated as expected
+2026-04-06 11:29:06 [INFO] [STEP]Entering valid email...
+2026-04-06 11:29:06 [INFO] [STEP] Attempting to enter email...
+2026-04-06 11:29:06 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-06 11:29:06 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-06 11:29:06 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-06 11:29:08 [INFO] [SUCCESS] email entered ✅
+2026-04-06 11:29:10 [INFO] [SUCCESS] Entered email
+2026-04-06 11:29:10 [INFO] [STEP] Clicking Generate Login code button...
+2026-04-06 11:29:10 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Generate Login code']")
+2026-04-06 11:29:10 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Generate Login code']")
+2026-04-06 11:29:10 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Generate Login code']")
+2026-04-06 11:29:12 [INFO] [STEP] Waiting for OTP page text...
+2026-04-06 11:29:12 [INFO] [STEP] Waiting for text: 'Enter Code'
+2026-04-06 11:29:12 [INFO] [SUCCESS] Text 'Enter Code' found on page ✅
+2026-04-06 11:29:12 [INFO] [STEP] Fetching OTP from DB...
+2026-04-06 11:29:12 [INFO] [STEP] Starting SSH tunnel (using default SSH config)
+2026-04-06 11:29:13 [INFO] Connected (version 2.0, client OpenSSH_8.2p1)
+2026-04-06 11:29:14 [INFO] Authentication (publickey) successful!
+2026-04-06 11:29:14 [INFO] [SUCCESS] SSH tunnel established
+2026-04-06 11:29:18 [INFO] [DB SUCCESS] OTP fetched: 434532
+2026-04-06 11:29:19 [INFO] [SUCCESS] OTP fetched: 434532 ✅
+2026-04-06 11:29:21 [INFO] [STEP] Entering OTP...
+2026-04-06 11:29:21 [INFO] [STEP] Entering OTP...
+2026-04-06 11:29:23 [INFO] [SUCCESS] OTP '434532' entered successfully! ✅
+2026-04-06 11:29:23 [INFO] [STEP] Entered OTP
+2026-04-06 11:29:25 [INFO] [STEP] Clicking Verify button...
+2026-04-06 11:29:25 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Verify']")
+2026-04-06 11:29:25 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Verify']")
+2026-04-06 11:29:25 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Verify']")
+2026-04-06 11:29:25 [INFO] [SUCCESS] Verify button clicked ✅
+2026-04-06 11:29:27 [INFO] [STEP] Locating Change Password option...
+2026-04-06 11:29:27 [INFO] [STEP] Waiting for text: 'Change Password?'
+2026-04-06 11:29:27 [INFO] [SUCCESS] Text 'Change Password?' found on page ✅
+2026-04-06 11:29:27 [INFO] [SUCCESS] Change Password element located in page
+2026-04-06 11:29:29 [INFO] [STEP] Entering invalid New password, invalid Confirm password
+2026-04-06 11:29:31 [INFO] [STEP] Validating password error message for input: Test@12
+2026-04-06 11:29:31 [INFO] [STEP] Entering new password: Test@12
+2026-04-06 11:29:31 [INFO] [STEP] Entered new password: Test@12
+2026-04-06 11:29:31 [INFO] [STEP] Entering confirm password: Test@12
+2026-04-06 11:29:31 [INFO] [STEP] Entered confirm password: Test@12
+2026-04-06 11:29:31 [INFO] [STEP] Clicking Change Password button...
+2026-04-06 11:29:31 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Change Password']")
+2026-04-06 11:29:31 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Change Password']")
+2026-04-06 11:29:31 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Change Password']")
+2026-04-06 11:29:33 [INFO] [SUCCESS] Change Password button clicked...
+2026-04-06 11:29:34 [INFO] [STEP] Waiting for password validation error...
+2026-04-06 11:29:34 [INFO] [STEP] Locating element: ('xpath', "(//span[contains(@class, '_error_message') and contains(., 'Invalid password')])[1]")
+2026-04-06 11:29:34 [INFO] [SUCCESS] Found element: ('xpath', "(//span[contains(@class, '_error_message') and contains(., 'Invalid password')])[1]")
+2026-04-06 11:29:34 [INFO] [SUCCESS] 'Invalid password. It must have at least 8 characters with atleast 1 alphabet, 1 number and 1 special character' found on page for both pwds✅
+2026-04-06 11:29:34 [INFO] [STEP] Locating element: ('xpath', "(//span[contains(@class, '_error_message') and contains(., 'Invalid password')])[2]")
+2026-04-06 11:29:34 [INFO] [SUCCESS] Found element: ('xpath', "(//span[contains(@class, '_error_message') and contains(., 'Invalid password')])[2]")
+2026-04-06 11:29:34 [INFO] [SUCCESS] 'Invalid password. It must have at least 8 characters with atleast 1 alphabet, 1 number and 1 special character' found on page for both pwds✅
+2026-04-06 11:29:34 [INFO] [STEP] Validating password error message for input: Test12345
+2026-04-06 11:29:34 [INFO] [STEP] Entering new password: Test12345
+2026-04-06 11:29:35 [INFO] [STEP] Entered new password: Test12345
+2026-04-06 11:29:35 [INFO] [STEP] Entering confirm password: Test12345
+2026-04-06 11:29:35 [INFO] [STEP] Entered confirm password: Test12345
+2026-04-06 11:29:35 [INFO] [STEP] Clicking Change Password button...
+2026-04-06 11:29:35 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Change Password']")
+2026-04-06 11:29:35 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Change Password']")
+2026-04-06 11:29:35 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Change Password']")
+2026-04-06 11:29:37 [INFO] [SUCCESS] Change Password button clicked...
+2026-04-06 11:29:38 [INFO] [STEP] Waiting for password validation error...
+2026-04-06 11:29:38 [INFO] [STEP] Locating element: ('xpath', "(//span[contains(@class, '_error_message') and contains(., 'Invalid password')])[1]")
+2026-04-06 11:29:38 [INFO] [SUCCESS] Found element: ('xpath', "(//span[contains(@class, '_error_message') and contains(., 'Invalid password')])[1]")
+2026-04-06 11:29:38 [INFO] [SUCCESS] 'Invalid password. It must have at least 8 characters with atleast 1 alphabet, 1 number and 1 special character' found on page for both pwds✅
+2026-04-06 11:29:38 [INFO] [STEP] Locating element: ('xpath', "(//span[contains(@class, '_error_message') and contains(., 'Invalid password')])[2]")
+2026-04-06 11:29:38 [INFO] [SUCCESS] Found element: ('xpath', "(//span[contains(@class, '_error_message') and contains(., 'Invalid password')])[2]")
+2026-04-06 11:29:38 [INFO] [SUCCESS] 'Invalid password. It must have at least 8 characters with atleast 1 alphabet, 1 number and 1 special character' found on page for both pwds✅
+2026-04-06 11:29:38 [INFO] [STEP] Validating password error message for input: 12345@678
+2026-04-06 11:29:38 [INFO] [STEP] Entering new password: 12345@678
+2026-04-06 11:29:38 [INFO] [STEP] Entered new password: 12345@678
+2026-04-06 11:29:38 [INFO] [STEP] Entering confirm password: 12345@678
+2026-04-06 11:29:38 [INFO] [STEP] Entered confirm password: 12345@678
+2026-04-06 11:29:38 [INFO] [STEP] Clicking Change Password button...
+2026-04-06 11:29:38 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Change Password']")
+2026-04-06 11:29:38 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Change Password']")
+2026-04-06 11:29:38 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Change Password']")
+2026-04-06 11:29:40 [INFO] [SUCCESS] Change Password button clicked...
+2026-04-06 11:29:41 [INFO] [STEP] Waiting for password validation error...
+2026-04-06 11:29:41 [INFO] [STEP] Locating element: ('xpath', "(//span[contains(@class, '_error_message') and contains(., 'Invalid password')])[1]")
+2026-04-06 11:29:41 [INFO] [SUCCESS] Found element: ('xpath', "(//span[contains(@class, '_error_message') and contains(., 'Invalid password')])[1]")
+2026-04-06 11:29:41 [INFO] [SUCCESS] 'Invalid password. It must have at least 8 characters with atleast 1 alphabet, 1 number and 1 special character' found on page for both pwds✅
+2026-04-06 11:29:41 [INFO] [STEP] Locating element: ('xpath', "(//span[contains(@class, '_error_message') and contains(., 'Invalid password')])[2]")
+2026-04-06 11:29:42 [INFO] [SUCCESS] Found element: ('xpath', "(//span[contains(@class, '_error_message') and contains(., 'Invalid password')])[2]")
+2026-04-06 11:29:42 [INFO] [SUCCESS] 'Invalid password. It must have at least 8 characters with atleast 1 alphabet, 1 number and 1 special character' found on page for both pwds✅
+2026-04-06 11:29:42 [INFO] [STEP] Validating password error message for input: Test@test
+2026-04-06 11:29:42 [INFO] [STEP] Entering new password: Test@test
+2026-04-06 11:29:42 [INFO] [STEP] Entered new password: Test@test
+2026-04-06 11:29:42 [INFO] [STEP] Entering confirm password: Test@test
+2026-04-06 11:29:42 [INFO] [STEP] Entered confirm password: Test@test
+2026-04-06 11:29:42 [INFO] [STEP] Clicking Change Password button...
+2026-04-06 11:29:42 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Change Password']")
+2026-04-06 11:29:42 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Change Password']")
+2026-04-06 11:29:42 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Change Password']")
+2026-04-06 11:29:44 [INFO] [SUCCESS] Change Password button clicked...
+2026-04-06 11:29:45 [INFO] [STEP] Waiting for password validation error...
+2026-04-06 11:29:45 [INFO] [STEP] Locating element: ('xpath', "(//span[contains(@class, '_error_message') and contains(., 'Invalid password')])[1]")
+2026-04-06 11:29:45 [INFO] [SUCCESS] Found element: ('xpath', "(//span[contains(@class, '_error_message') and contains(., 'Invalid password')])[1]")
+2026-04-06 11:29:45 [INFO] [SUCCESS] 'Invalid password. It must have at least 8 characters with atleast 1 alphabet, 1 number and 1 special character' found on page for both pwds✅
+2026-04-06 11:29:45 [INFO] [STEP] Locating element: ('xpath', "(//span[contains(@class, '_error_message') and contains(., 'Invalid password')])[2]")
+2026-04-06 11:29:45 [INFO] [SUCCESS] Found element: ('xpath', "(//span[contains(@class, '_error_message') and contains(., 'Invalid password')])[2]")
+2026-04-06 11:29:45 [INFO] [SUCCESS] 'Invalid password. It must have at least 8 characters with atleast 1 alphabet, 1 number and 1 special character' found on page for both pwds✅

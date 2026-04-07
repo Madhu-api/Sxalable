@@ -1,0 +1,74 @@
+2026-03-30 20:15:17 [INFO] ====== WebDriver manager ======
+2026-03-30 20:15:18 [INFO] Get LATEST chromedriver version for google-chrome
+2026-03-30 20:15:18 [INFO] Get LATEST chromedriver version for google-chrome
+2026-03-30 20:15:18 [INFO] Driver [C:\Users\madhusudhanan\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe] found in cache
+2026-03-30 20:15:20 [INFO] [STEP] Opening URL: https://stage.sxalable.io/
+2026-03-30 20:15:23 [INFO] [INFO] Opened URL: https://stage.sxalable.io/
+2026-03-30 20:15:25 [INFO] [STEP] Entering (existing) workspace name for Sign in
+2026-03-30 20:15:25 [INFO] [INFO] Workspace entered: automation3003102020
+2026-03-30 20:15:25 [INFO] [STEP] Clicking Next button...
+2026-03-30 20:15:27 [INFO] [SUCCESS] Next button clicked...
+2026-03-30 20:15:29 [INFO] [STEP] Checking Sign in page URL...
+2026-03-30 20:15:29 [INFO] [SUCCESS] Checked Sign in page URL: https://stage.sxalable.io/login
+2026-03-30 20:15:29 [INFO] [STEP] Entering (existing) email, password
+2026-03-30 20:15:31 [INFO] [STEP] Entering email: veltris.demoacc+3003102020@gmail.com...
+2026-03-30 20:15:33 [INFO] [STEP] Entering pwd: Test@1234...
+2026-03-30 20:15:36 [INFO] [INFO] credentials entered...
+2026-03-30 20:15:36 [INFO] [STEP] Clicking Login button...
+2026-03-30 20:15:38 [INFO] [INFO] Clicked Login button...
+2026-03-30 20:15:38 [INFO] [STEP] Verifying Page navigated to OTP...
+2026-03-30 20:15:40 [INFO] [SUCCESS] Page navigated to OTP
+2026-03-30 20:15:42 [INFO] [STEP] Waiting for OTP page text...
+2026-03-30 20:15:44 [INFO] [SUCCESS] 'Enter Code' found on OTP page ✅
+2026-03-30 20:15:44 [INFO] [STEP] Fetching OTP from DB...
+2026-03-30 20:15:44 [INFO] [STEP] Starting SSH tunnel (using default SSH config)
+2026-03-30 20:15:45 [INFO] Connected (version 2.0, client OpenSSH_8.2p1)
+2026-03-30 20:15:46 [INFO] Authentication (publickey) successful!
+2026-03-30 20:15:46 [INFO] [SUCCESS] SSH tunnel established
+2026-03-30 20:15:49 [INFO] [DB SUCCESS] OTP fetched: 889082
+2026-03-30 20:15:49 [INFO] [SUCCESS] OTP fetched: 889082 ✅
+2026-03-30 20:15:49 [INFO] [STEP] Entering OTP...
+2026-03-30 20:15:54 [INFO] [SUCCESS] OTP Entered! ✅
+2026-03-30 20:15:56 [INFO] [STEP] Clicking Verify button...
+2026-03-30 20:15:56 [INFO] [SUCCESS] Verify button clicked ✅
+2026-03-30 20:15:56 [INFO] [STEP] Verify page is navigated away from OTP page ✅
+2026-03-30 20:15:57 [INFO] [SUCCESS] Page successfully navigated..
+2026-03-30 20:15:59 [INFO] [STEP] Verifying Landing URL after sign-in..
+2026-03-30 20:15:59 [INFO] [SUCCESS] Valid URL landed: https://stage.sxalable.io/devices/sxr ✅
+2026-03-30 20:15:59 [INFO] [STEP] Verifying Continue Button is enabled (assuming user details previously entered)...
+2026-03-30 20:15:59 [INFO] [SUCCESS] Continue Button is enabled after entering user details ✅
+2026-03-30 20:15:59 [INFO] [STEP] Clicking 'Continue to Plans' button...
+2026-03-30 20:16:01 [INFO] [SUCCESS] Clicked 'Continue to Plans' button...
+2026-03-30 20:16:01 [INFO] [STEP] Verifying available plans page opens ...
+2026-03-30 20:16:04 [INFO] [SUCCESS] 'Available Plans' found on page ✅
+2026-03-30 20:16:04 [INFO] [STEP] Clicking 'Select Plan' button...
+2026-03-30 20:16:06 [INFO] [SUCCESS] 'Select plan' button clicked ✅
+2026-03-30 20:16:06 [INFO] [STEP] Waiting for Check out page text...
+2026-03-30 20:16:08 [INFO] [SUCCESS] 'Checkout' found on page ✅
+2026-03-30 20:16:08 [INFO] [STEP] Entering User Details...
+2026-03-30 20:16:08 [INFO] [STEP] Step 1: Entering full_name (Automationuser)...
+2026-03-30 20:16:17 [ERROR] [CRITICAL] Error at Step 1 (full_name): Message: 
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xaecdf3+10b03]
+	chromedriver!GetHandleVerifier [0xaecf24+10c34]
+	chromedriver!(No symbol) [0x8d2120]
+	chromedriver!(No symbol) [0x91abca]
+	chromedriver!(No symbol) [0x91ae6b]
+	chromedriver!(No symbol) [0x95d0b2]
+	chromedriver!(No symbol) [0x93db54]
+	chromedriver!(No symbol) [0x95a9a5]
+	chromedriver!(No symbol) [0x93d8a6]
+	chromedriver!(No symbol) [0x910229]
+	chromedriver!(No symbol) [0x910fe4]
+	chromedriver!GetHandleVerifier [0xd548b9+2785c9]
+	chromedriver!GetHandleVerifier [0xd4feb5+273bc5]
+	chromedriver!GetHandleVerifier [0xd6e06b+291d7b]
+	chromedriver!GetHandleVerifier [0xb05cc8+299d8]
+	chromedriver!GetHandleVerifier [0xb0d9fd+3170d]
+	chromedriver!GetHandleVerifier [0xaf58c8+195d8]
+	chromedriver!GetHandleVerifier [0xaf5a92+197a2]
+	chromedriver!GetHandleVerifier [0xadee9a+2baa]
+	KERNEL32!BaseThreadInitThunk [0x7656fa29+19]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x775b7a9e+11e]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x775b7a6e+ee]
+

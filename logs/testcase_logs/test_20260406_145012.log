@@ -1,0 +1,102 @@
+2026-04-06 14:50:13 [INFO] ====== WebDriver manager ======
+2026-04-06 14:50:14 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-06 14:50:14 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-06 14:50:14 [INFO] Driver [C:\Users\madhusudhanan\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe] found in cache
+2026-04-06 14:50:16 [INFO] [STEP] Opening URL: https://stage.sxalable.io/
+2026-04-06 14:50:44 [INFO] [SUCCESS] Opened URL: https://stage.sxalable.io/
+2026-04-06 14:50:44 [INFO] [STEP] Entering workspace name
+2026-04-06 14:50:44 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-06 14:50:45 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-06 14:50:45 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-06 14:50:45 [INFO] [INFO] Workspace entered: automation0204211633
+2026-04-06 14:50:45 [INFO] [STEP] Entered workspace name
+2026-04-06 14:50:45 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-06 14:50:45 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-06 14:50:45 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-06 14:50:45 [INFO] [STEP] Checking Sign in page URL...
+2026-04-06 14:50:45 [INFO] [STEP] Waiting for URL to contain: 'https://stage.sxalable.io/login'
+2026-04-06 14:50:45 [INFO] [SUCCESS] Reached target URL: https://stage.sxalable.io/login ✅
+2026-04-06 14:50:45 [INFO] [SUCCESS] Checked Sign in page URL: https://stage.sxalable.io/login
+2026-04-06 14:50:45 [INFO] [STEP] Entering email, password
+2026-04-06 14:50:45 [INFO] [STEP] Attempting to enter email...
+2026-04-06 14:50:45 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-06 14:50:45 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-06 14:50:46 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-06 14:50:48 [INFO] [SUCCESS] email entered ✅
+2026-04-06 14:50:50 [INFO] [STEP] Attempting to enter password...
+2026-04-06 14:50:50 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-06 14:50:50 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-06 14:50:50 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-06 14:50:52 [INFO] [SUCCESS] password entered ✅
+2026-04-06 14:50:56 [INFO] [STEP] Entered email, password
+2026-04-06 14:50:56 [INFO] [STEP] locating and clicking Login button
+2026-04-06 14:50:56 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Login']")
+2026-04-06 14:50:56 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Login']")
+2026-04-06 14:50:56 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Login']")
+2026-04-06 14:50:56 [INFO] [INFO] Clicked Login button...
+2026-04-06 14:50:56 [INFO] [STEP] Verifying Page navigated to OTP...
+2026-04-06 14:50:56 [INFO] [STEP] Waiting for URL to change from: https://stage.sxalable.io/login
+2026-04-06 14:50:59 [INFO] [SUCCESS] URL changed to: https://stage.sxalable.io/mfa ✅
+2026-04-06 14:50:59 [INFO] [STEP] Waiting for text: 'Enter Code'
+2026-04-06 14:50:59 [INFO] [SUCCESS] Text 'Enter Code' found on page ✅
+2026-04-06 14:50:59 [INFO] [SUCCESS] 'Enter Code' found on OTP page ✅
+2026-04-06 14:50:59 [INFO] [STEP] Fetching OTP from DB...
+2026-04-06 14:50:59 [INFO] [STEP] Starting SSH tunnel (using default SSH config)
+2026-04-06 14:51:00 [INFO] Connected (version 2.0, client OpenSSH_8.2p1)
+2026-04-06 14:51:06 [INFO] Authentication (publickey) successful!
+2026-04-06 14:51:06 [INFO] [SUCCESS] SSH tunnel established
+2026-04-06 14:51:12 [INFO] [DB SUCCESS] OTP fetched: 953337
+2026-04-06 14:51:12 [INFO] [SUCCESS] OTP fetched: 953337 ✅
+2026-04-06 14:51:12 [INFO] [STEP] Entering OTP...
+2026-04-06 14:51:12 [INFO] [STEP] Entering OTP...
+2026-04-06 14:51:14 [INFO] [SUCCESS] OTP '953337' entered successfully! ✅
+2026-04-06 14:51:14 [INFO] [STEP] Entered OTP
+2026-04-06 14:51:16 [INFO] [STEP] Clicking Verify button...
+2026-04-06 14:51:16 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Verify']")
+2026-04-06 14:51:16 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Verify']")
+2026-04-06 14:51:16 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Verify']")
+2026-04-06 14:51:16 [INFO] [STEP] Clicked Verify button...
+2026-04-06 14:51:16 [INFO] [STEP] Verifying Page navigated away from OTP...
+2026-04-06 14:51:16 [INFO] [STEP] Waiting for URL to change from: https://stage.sxalable.io/mfa
+2026-04-06 14:51:18 [INFO] [SUCCESS] URL changed to: https://stage.sxalable.io/devices/sxr ✅
+2026-04-06 14:51:18 [INFO] [SUCCESS] Page successfully navigated..
+2026-04-06 14:51:20 [INFO] [STEP] Verifying Landing URL after sign-in..
+2026-04-06 14:51:20 [INFO] [SUCCESS] Valid URL landed: https://stage.sxalable.io/devices/sxr ✅
+2026-04-06 14:51:20 [INFO] [STEP] Verifying Continue Button is enabled after entering user details...
+2026-04-06 14:51:20 [INFO] [STEP] Checking if enabled: //button[contains(., 'Continue to plans')]
+2026-04-06 14:51:20 [INFO] [SUCCESS] Button is enabled ✅
+2026-04-06 14:51:20 [INFO] [SUCCESS] Continue Button is enabled after entering user details ✅
+2026-04-06 14:51:20 [INFO] [STEP] Clicking 'Continue to Plans' button...
+2026-04-06 14:51:22 [INFO] [STEP] Locating element: ('xpath', "//button[contains(., 'Continue to plans')]")
+2026-04-06 14:51:22 [INFO] [SUCCESS] Found element: ('xpath', "//button[contains(., 'Continue to plans')]")
+2026-04-06 14:51:22 [INFO] [ACTION] Clicked element: ('xpath', "//button[contains(., 'Continue to plans')]")
+2026-04-06 14:51:22 [INFO] [SUCCESS] Clicked 'Continue to Plans' button...
+2026-04-06 14:51:24 [INFO] [STEP] Verifying available plans page opens ...
+2026-04-06 14:51:24 [INFO] [STEP] Waiting for text: 'Available Plans'
+2026-04-06 14:51:24 [INFO] [SUCCESS] Text 'Available Plans' found on page ✅
+2026-04-06 14:51:24 [INFO] [SUCCESS] 'Available Plans' found on page ✅
+2026-04-06 14:51:26 [INFO] [STEP] Clicking 'setup_later_button' button...
+2026-04-06 14:51:26 [INFO] [STEP] Locating element: ('xpath', "//span[contains(text(), 'Setup Later')]")
+2026-04-06 14:51:26 [INFO] [SUCCESS] Found element: ('xpath', "//span[contains(text(), 'Setup Later')]")
+2026-04-06 14:51:26 [INFO] [ACTION] Clicked element: ('xpath', "//span[contains(text(), 'Setup Later')]")
+2026-04-06 14:51:26 [INFO] [SUCCESS] Clicked 'setup_later_button' button......
+2026-04-06 14:51:30 [INFO] [STEP] Clicking 'Add_SxR_button' button...
+2026-04-06 14:51:30 [INFO] [STEP] Locating element: ('xpath', "//span[normalize-space()='Add SxR']/ancestor::button")
+2026-04-06 14:51:30 [INFO] [SUCCESS] Found element: ('xpath', "//span[normalize-space()='Add SxR']/ancestor::button")
+2026-04-06 14:51:31 [INFO] [ACTION] Clicked element: ('xpath', "//span[normalize-space()='Add SxR']/ancestor::button")
+2026-04-06 14:51:31 [INFO] [SUCCESS] Clicked 'Add_SxR_button' button......
+2026-04-06 14:51:35 [INFO] [STEP] Clicking 'Add_SxR_text' button...
+2026-04-06 14:51:35 [INFO] [STEP] Locating element: ('xpath', "//h6[text()='Add SxR']")
+2026-04-06 14:51:35 [INFO] [SUCCESS] Found element: ('xpath', "//h6[text()='Add SxR']")
+2026-04-06 14:51:35 [INFO] [ACTION] Clicked element: ('xpath', "//h6[text()='Add SxR']")
+2026-04-06 14:51:35 [INFO] [SUCCESS] Clicked 'Add_SxR_text' button......
+2026-04-06 14:51:37 [INFO] [STEP] Entering Router name...
+2026-04-06 14:51:39 [INFO] [STEP] Attempting to enter Enter router name...
+2026-04-06 14:51:39 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'Enter router name')]")
+2026-04-06 14:51:39 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'Enter router name')]")
+2026-04-06 14:51:39 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'Enter router name')]")
+2026-04-06 14:51:41 [INFO] [SUCCESS] Enter router name entered ✅
+2026-04-06 14:51:43 [INFO] [STEP] Entered Router details successfully
+2026-04-06 14:51:45 [INFO] [STEP] Clicking 'manual_radio_button' button...
+2026-04-06 14:51:45 [INFO] [STEP] Locating element: ('xpath', "//input[@name='deploymentMode' and @value='manual']")
+2026-04-06 14:51:55 [ERROR] [TIMEOUT] Element ('xpath', "//input[@name='deploymentMode' and @value='manual']") not found/clickable within 10s

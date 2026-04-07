@@ -1,0 +1,42 @@
+2026-04-02 16:39:50 [INFO] ====== WebDriver manager ======
+2026-04-02 16:39:52 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-02 16:39:52 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-02 16:39:52 [INFO] Driver [C:\Users\madhusudhanan\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe] found in cache
+2026-04-02 16:39:53 [INFO] [STEP] Opening URL: https://stage.sxalable.io/
+2026-04-02 16:40:22 [INFO] [SUCCESS] Opened URL: https://stage.sxalable.io/
+2026-04-02 16:40:22 [INFO] [STEP] Locating element: ('partial link text', 'Sign up')
+2026-04-02 16:40:22 [INFO] [SUCCESS] Found element: ('partial link text', 'Sign up')
+2026-04-02 16:40:22 [INFO] [ACTION] Clicked element: ('partial link text', 'Sign up')
+2026-04-02 16:40:22 [INFO] [STEP] validating each invalid pwd input from ['Test@12', 'Test12345', '12345@678', 'Test@test']
+2026-04-02 16:40:24 [INFO] [STEP] Validating password error message for input: Test@12
+2026-04-02 16:40:24 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-02 16:40:24 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-02 16:40:24 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-02 16:40:24 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-02 16:40:24 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-02 16:40:26 [INFO] [STEP] Waiting for text: 'Invalid password. It must have at least 8 characters with atleast 1 alphabet, 1 number and 1 special character'
+2026-04-02 16:40:26 [INFO] [SUCCESS] Text 'Invalid password. It must have at least 8 characters with atleast 1 alphabet, 1 number and 1 special character' found on page ✅
+2026-04-02 16:40:28 [INFO] [STEP] Validating password error message for input: Test12345
+2026-04-02 16:40:28 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-02 16:40:28 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-02 16:40:29 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-02 16:40:29 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-02 16:40:29 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-02 16:40:31 [INFO] [STEP] Waiting for text: 'Invalid password. It must have at least 8 characters with atleast 1 alphabet, 1 number and 1 special character'
+2026-04-02 16:40:31 [INFO] [SUCCESS] Text 'Invalid password. It must have at least 8 characters with atleast 1 alphabet, 1 number and 1 special character' found on page ✅
+2026-04-02 16:40:33 [INFO] [STEP] Validating password error message for input: 12345@678
+2026-04-02 16:40:33 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-02 16:40:33 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-02 16:40:33 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-02 16:40:33 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-02 16:40:34 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-02 16:40:36 [INFO] [STEP] Waiting for text: 'Invalid password. It must have at least 8 characters with atleast 1 alphabet, 1 number and 1 special character'
+2026-04-02 16:40:36 [INFO] [SUCCESS] Text 'Invalid password. It must have at least 8 characters with atleast 1 alphabet, 1 number and 1 special character' found on page ✅
+2026-04-02 16:40:38 [INFO] [STEP] Validating password error message for input: Test@test
+2026-04-02 16:40:38 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-02 16:40:38 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'password')]")
+2026-04-02 16:40:38 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-02 16:40:38 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-02 16:40:38 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-02 16:40:40 [INFO] [STEP] Waiting for text: 'Invalid password. It must have at least 8 characters with atleast 1 alphabet, 1 number and 1 special character'
+2026-04-02 16:40:40 [INFO] [SUCCESS] Text 'Invalid password. It must have at least 8 characters with atleast 1 alphabet, 1 number and 1 special character' found on page ✅

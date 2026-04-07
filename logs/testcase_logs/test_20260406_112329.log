@@ -1,0 +1,69 @@
+2026-04-06 11:23:30 [INFO] ====== WebDriver manager ======
+2026-04-06 11:23:32 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-06 11:23:32 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-06 11:23:32 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-06 11:23:32 [INFO] WebDriver version 146.0.7680.165 selected
+2026-04-06 11:23:32 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip
+2026-04-06 11:23:32 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip
+2026-04-06 11:23:32 [INFO] Driver downloading response is 200
+2026-04-06 11:23:33 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-06 11:23:33 [INFO] Driver has been saved in cache [C:\Users\madhusudhanan\.wdm\drivers\chromedriver\win64\146.0.7680.165]
+2026-04-06 11:23:35 [INFO] [STEP] Opening URL: https://stage.sxalable.io/
+2026-04-06 11:24:02 [INFO] [SUCCESS] Opened URL: https://stage.sxalable.io/
+2026-04-06 11:24:02 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-06 11:24:02 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-06 11:24:02 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-06 11:24:05 [INFO] [INFO] Workspace entered: automation0204211633
+2026-04-06 11:24:07 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-06 11:24:07 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-06 11:24:07 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-06 11:24:07 [INFO] [SUCCESS] Next button clicked...
+2026-04-06 11:24:09 [INFO] [STEP] Checking Sign in page URL...
+2026-04-06 11:24:09 [INFO] [STEP] Waiting for URL to contain: 'https://stage.sxalable.io/login'
+2026-04-06 11:24:09 [INFO] [SUCCESS] Reached target URL: https://stage.sxalable.io/login ✅
+2026-04-06 11:24:09 [INFO] [STEP] Checked Sign in page URL...
+2026-04-06 11:24:09 [INFO] [STEP] Locating 'Forgot Password' option...
+2026-04-06 11:24:09 [INFO] [STEP] Locating element: ('xpath', "//h5[contains(normalize-space(),'Forgot Password?')]")
+2026-04-06 11:24:09 [INFO] [SUCCESS] Found element: ('xpath', "//h5[contains(normalize-space(),'Forgot Password?')]")
+2026-04-06 11:24:09 [INFO] [SUCCESS] Forgot Password button located...
+2026-04-06 11:24:09 [INFO] [STEP] Clicking Forgot Password 'Click Here' button...
+2026-04-06 11:24:09 [INFO] [STEP] Locating element: ('xpath', "//a[@href='/forgotpassword' and normalize-space()='Click Here']")
+2026-04-06 11:24:09 [INFO] [SUCCESS] Found element: ('xpath', "//a[@href='/forgotpassword' and normalize-space()='Click Here']")
+2026-04-06 11:24:09 [INFO] [ACTION] Clicked element: ('xpath', "//a[@href='/forgotpassword' and normalize-space()='Click Here']")
+2026-04-06 11:24:09 [INFO] [SUCCESS] Click Here button located...
+2026-04-06 11:24:11 [INFO] [STEP] Checking Forgot password page URL...
+2026-04-06 11:24:11 [INFO] [STEP] Waiting for URL to contain: 'https://stage.sxalable.io/forgotpassword'
+2026-04-06 11:24:11 [INFO] [SUCCESS] Reached target URL: https://stage.sxalable.io/forgotpassword ✅
+2026-04-06 11:24:11 [INFO] [STEP] Checked Forgot password page URL...
+2026-04-06 11:24:11 [INFO] [STEP] Locating Enter Your email option...
+2026-04-06 11:24:13 [INFO] [STEP] Locating element: ('xpath', "//input[@placeholder='Enter your email']")
+2026-04-06 11:24:13 [INFO] [SUCCESS] Found element: ('xpath', "//input[@placeholder='Enter your email']")
+2026-04-06 11:24:13 [INFO] [ACTION] Clicked element: ('xpath', "//input[@placeholder='Enter your email']")
+2026-04-06 11:24:13 [INFO] [SUCCESS] Enter Your Email has been located/Clicked...
+2026-04-06 11:24:13 [INFO] [STEP] Entering an invalid Email for the given workspace: veltris.demoacc+0604112335@gmail.com...
+2026-04-06 11:24:13 [INFO] [SUCCESS] (Invalid) Email entered
+2026-04-06 11:24:15 [INFO] [STEP] Clicking Generate Login code button...
+2026-04-06 11:24:15 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Generate Login code']")
+2026-04-06 11:24:15 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Generate Login code']")
+2026-04-06 11:24:15 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Generate Login code']")
+2026-04-06 11:24:17 [INFO] [STEP] Verifying 'User not found' error msg...
+2026-04-06 11:24:17 [INFO] [STEP] Locating element: ('xpath', "//div[@role='alert']//div[normalize-space()='User not found. Please check your email.']")
+2026-04-06 11:24:17 [INFO] [SUCCESS] Found element: ('xpath', "//div[@role='alert']//div[normalize-space()='User not found. Please check your email.']")
+2026-04-06 11:24:17 [INFO] [ACTION] Clicked element: ('xpath', "//div[@role='alert']//div[normalize-space()='User not found. Please check your email.']")
+2026-04-06 11:24:17 [INFO] [SUCCESS] User Not Found error populated as expected
+2026-04-06 11:24:17 [INFO] [STEP]Entering valid email...
+2026-04-06 11:24:17 [INFO] [STEP] Attempting to enter email...
+2026-04-06 11:24:17 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-06 11:24:17 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-06 11:24:17 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'email')]")
+2026-04-06 11:24:17 [INFO] [SUCCESS] email entered ✅
+2026-04-06 11:24:19 [INFO] [SUCCESS] Entered email
+2026-04-06 11:24:19 [INFO] [STEP] Clicking Generate Login code button...
+2026-04-06 11:24:19 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Generate Login code']")
+2026-04-06 11:24:19 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Generate Login code']")
+2026-04-06 11:24:20 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Generate Login code']")
+2026-04-06 11:24:22 [INFO] [STEP] Waiting for OTP page text...
+2026-04-06 11:24:22 [INFO] [STEP] Waiting for text: 'Enter Code'
+2026-04-06 11:24:37 [ERROR] [ERROR] Failed to find text 'Enter Code' ❌
+2026-04-06 11:24:37 [ERROR] [EXCEPTION] Message: 
+

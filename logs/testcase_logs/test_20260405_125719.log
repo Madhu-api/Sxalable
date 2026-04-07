@@ -1,0 +1,89 @@
+2026-04-05 12:57:20 [INFO] ====== WebDriver manager ======
+2026-04-05 12:57:21 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-05 12:57:21 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-05 12:57:21 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-05 12:57:21 [INFO] WebDriver version 146.0.7680.165 selected
+2026-04-05 12:57:21 [INFO] Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip
+2026-04-05 12:57:21 [INFO] About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/146.0.7680.165/win32/chromedriver-win32.zip
+2026-04-05 12:57:22 [INFO] Driver downloading response is 200
+2026-04-05 12:57:22 [INFO] Get LATEST chromedriver version for google-chrome
+2026-04-05 12:57:23 [INFO] Driver has been saved in cache [C:\Users\madhusudhanan\.wdm\drivers\chromedriver\win64\146.0.7680.165]
+2026-04-05 12:57:24 [INFO] [STEP] Opening URL: https://stage.sxalable.io/
+2026-04-05 12:58:02 [INFO] [SUCCESS] Opened URL: https://stage.sxalable.io/
+2026-04-05 12:58:02 [INFO] [STEP] Locating element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-05 12:58:02 [INFO] [SUCCESS] Found element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-05 12:58:02 [INFO] [ACTION] Clicked element: ('xpath', "//input[contains(@placeholder,'Workspace')]")
+2026-04-05 12:58:04 [INFO] [INFO] Workspace entered: automation0204211633
+2026-04-05 12:58:06 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-05 12:58:06 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-05 12:58:06 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Next']")
+2026-04-05 12:58:06 [INFO] [SUCCESS] Next button clicked...
+2026-04-05 12:58:08 [INFO] [STEP] Checking Sign in page URL...
+2026-04-05 12:58:08 [INFO] [STEP] Waiting for URL to contain: 'https://stage.sxalable.io/login'
+2026-04-05 12:58:08 [INFO] [SUCCESS] Reached target URL: https://stage.sxalable.io/login ✅
+2026-04-05 12:58:08 [INFO] [STEP] Checked Sign in page URL...
+2026-04-05 12:58:08 [INFO] [STEP] Locating 'Forgot Password' option...
+2026-04-05 12:58:08 [INFO] [STEP] Locating element: ('xpath', "//h5[contains(normalize-space(),'Forgot Password?')]")
+2026-04-05 12:58:08 [INFO] [SUCCESS] Found element: ('xpath', "//h5[contains(normalize-space(),'Forgot Password?')]")
+2026-04-05 12:58:08 [INFO] [SUCCESS] Forgot Password button located...
+2026-04-05 12:58:08 [INFO] [STEP] Clicking Forgot Password 'Click Here' button...
+2026-04-05 12:58:08 [INFO] [STEP] Locating element: ('xpath', "//a[@href='/forgotpassword' and normalize-space()='Click Here']")
+2026-04-05 12:58:08 [INFO] [SUCCESS] Found element: ('xpath', "//a[@href='/forgotpassword' and normalize-space()='Click Here']")
+2026-04-05 12:58:08 [INFO] [ACTION] Clicked element: ('xpath', "//a[@href='/forgotpassword' and normalize-space()='Click Here']")
+2026-04-05 12:58:08 [INFO] [SUCCESS] Click Here button located...
+2026-04-05 12:58:10 [INFO] [STEP] Checking Forgot password page URL...
+2026-04-05 12:58:10 [INFO] [STEP] Waiting for URL to contain: 'https://stage.sxalable.io/forgotpassword'
+2026-04-05 12:58:10 [INFO] [SUCCESS] Reached target URL: https://stage.sxalable.io/forgotpassword ✅
+2026-04-05 12:58:10 [INFO] [STEP] Checked Forgot password page URL...
+2026-04-05 12:58:10 [INFO] [STEP] Locating Enter Your email option...
+2026-04-05 12:58:12 [INFO] [STEP] Locating element: ('xpath', "//input[@placeholder='Enter your email']")
+2026-04-05 12:58:12 [INFO] [SUCCESS] Found element: ('xpath', "//input[@placeholder='Enter your email']")
+2026-04-05 12:58:13 [INFO] [ACTION] Clicked element: ('xpath', "//input[@placeholder='Enter your email']")
+2026-04-05 12:58:13 [INFO] [SUCCESS] Enter Your Email has been located/Clicked...
+2026-04-05 12:58:13 [INFO] [STEP] Entering email...
+2026-04-05 12:58:13 [INFO] [SUCCESS] Email entered
+2026-04-05 12:58:15 [INFO] [STEP] Clicking Generate Login code button...
+2026-04-05 12:58:15 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Generate Login code']")
+2026-04-05 12:58:15 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Generate Login code']")
+2026-04-05 12:58:15 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Generate Login code']")
+2026-04-05 12:58:17 [INFO] [STEP] Waiting for OTP page text...
+2026-04-05 12:58:17 [INFO] [STEP] Waiting for text: 'Enter Code'
+2026-04-05 12:58:17 [INFO] [SUCCESS] Text 'Enter Code' found on page ✅
+2026-04-05 12:58:17 [INFO] [STEP] Fetching OTP from DB...
+2026-04-05 12:58:17 [INFO] [STEP] Starting SSH tunnel (using default SSH config)
+2026-04-05 12:58:17 [INFO] Connected (version 2.0, client OpenSSH_8.2p1)
+2026-04-05 12:58:19 [INFO] Authentication (publickey) successful!
+2026-04-05 12:58:19 [INFO] [SUCCESS] SSH tunnel established
+2026-04-05 12:58:22 [INFO] [DB SUCCESS] OTP fetched: 004043
+2026-04-05 12:58:22 [INFO] [SUCCESS] OTP fetched: 004043 ✅
+2026-04-05 12:58:24 [INFO] [STEP] Entering OTP...
+2026-04-05 12:58:24 [INFO] [STEP] Entering OTP...
+2026-04-05 12:58:27 [INFO] [SUCCESS] OTP '004043' entered successfully! ✅
+2026-04-05 12:58:27 [INFO] [STEP] Entered OTP
+2026-04-05 12:58:29 [INFO] [STEP] Clicking Verify button...
+2026-04-05 12:58:29 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Verify']")
+2026-04-05 12:58:29 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Verify']")
+2026-04-05 12:58:29 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Verify']")
+2026-04-05 12:58:29 [INFO] [SUCCESS] Verify button clicked ✅
+2026-04-05 12:58:31 [INFO] [STEP] Locating Change Password option...
+2026-04-05 12:58:31 [INFO] [STEP] Waiting for text: 'Change Password?'
+2026-04-05 12:58:31 [INFO] [SUCCESS] Text 'Change Password?' found on page ✅
+2026-04-05 12:58:31 [INFO] [SUCCESS] Change Password element located in page
+2026-04-05 12:58:33 [INFO] [STEP] Entering New password, Confirm password
+2026-04-05 12:58:35 [INFO] [STEP] Entering New Password: Test@12345...
+2026-04-05 12:58:35 [INFO] [STEP] Locating element: ('xpath', "(//input[contains(@placeholder,'Enter your password')])[1]")
+2026-04-05 12:58:35 [INFO] [SUCCESS] Found element: ('xpath', "(//input[contains(@placeholder,'Enter your password')])[1]")
+2026-04-05 12:58:35 [INFO] [ACTION] Clicked element: ('xpath', "(//input[contains(@placeholder,'Enter your password')])[1]")
+2026-04-05 12:58:39 [INFO] [STEP] Entering Confirm Password: Test@12345...
+2026-04-05 12:58:39 [INFO] [STEP] Locating element: ('xpath', "(//input[contains(@placeholder,'Enter your password')])[2]")
+2026-04-05 12:58:39 [INFO] [SUCCESS] Found element: ('xpath', "(//input[contains(@placeholder,'Enter your password')])[2]")
+2026-04-05 12:58:39 [INFO] [ACTION] Clicked element: ('xpath', "(//input[contains(@placeholder,'Enter your password')])[2]")
+2026-04-05 12:58:43 [INFO] [INFO] New pwd and Confirm pwd entered...
+2026-04-05 12:58:43 [INFO] [STEP] Clicking Change Password button...
+2026-04-05 12:58:43 [INFO] [STEP] Locating element: ('xpath', "//button[@type='submit' and normalize-space()='Change Password']")
+2026-04-05 12:58:43 [INFO] [SUCCESS] Found element: ('xpath', "//button[@type='submit' and normalize-space()='Change Password']")
+2026-04-05 12:58:43 [INFO] [ACTION] Clicked element: ('xpath', "//button[@type='submit' and normalize-space()='Change Password']")
+2026-04-05 12:58:43 [INFO] [SUCCESS] Change Password button clicked...
+2026-04-05 12:58:45 [INFO] [STEP] Locating 'Password Changed!' Text...
+2026-04-05 12:58:46 [INFO] [STEP] Locating element: ('xpath', "//h5[contains(normalize-space(),'Password Changed!')]")
+2026-04-05 12:58:56 [ERROR] [TIMEOUT] Element ('xpath', "//h5[contains(normalize-space(),'Password Changed!')]") not found/clickable within 10s
