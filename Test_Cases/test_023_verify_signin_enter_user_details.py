@@ -13,7 +13,6 @@ def test_signin_enter_user_details(driver, config):
     # pwd = config["app"]["change_pwd"]  # user change_pwd for batch run
     pwd = config["app"]["pwd"]
     delay = config["app"]["delay"]
-    expected_otp_page_text = config["app"]["expected_otp_page_text"]
     # generating unique name with username 'Automationuser' with only a-z characters
     first_name = generate_unique_first_name(config["user"]["first_name"])
     # generating unique name with username 'Automationcompany' with only a-z characters
@@ -21,7 +20,7 @@ def test_signin_enter_user_details(driver, config):
     # generating unique company address with only a-z characters
     company_address = generate_unique_first_name(config["user"]["company_address"])
     expected_available_plans_text = config["app"]["expected_available_plans_text"]
-    login_credentials = {"email": email, "password": pwd}
+
     user_credentials = {"Enter your first name": first_name, "Enter your company name": company_name,
                         "Enter your company address": company_address}
     db_config = config["db"]
@@ -81,3 +80,12 @@ def test_signin_enter_user_details(driver, config):
                                  click_element=True)
     assert setup_later is not None, "Failure in clicking 'Setup Later' button"
     logger.info(f"[SUCCESS] 'Setup Later' button clicked...")
+
+    # Save Admin username and org in input_variables/test_signin_credentials.json for further use
+    data["admin_username"] = first_name
+    data["organization"] = company_name
+
+    with open(file_path, "w") as f:
+        json.dump(data, f, indent=4)
+
+    logger.info(f"[SUCCESS] credential stored in  input_variables/test_signin_credentials.json")

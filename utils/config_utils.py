@@ -146,3 +146,19 @@ def enter_form_data(driver, data_dict, delay=1):
     except Exception as e:
         logger.error(f"[CRITICAL] Unexpected error: {str(e)}")
         return False
+
+
+def get_text_from_xpath(driver, xpath, timeout=10):
+    """
+    Waits for an element to be present in the DOM,
+    retrieves its text, and strips whitespace.
+    """
+    try:
+        # Correct method: presence_of_element_located
+        element = WebDriverWait(driver, timeout).until(
+            ec.presence_of_element_located((By.XPATH, xpath))
+        )
+        return element.text.strip()
+    except Exception as e:
+        print(f"Error finding element with XPath: {xpath} - {e}")
+        return None
