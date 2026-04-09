@@ -7,6 +7,7 @@ from selenium.common.exceptions import (
 
     NoSuchElementException,
     ElementClickInterceptedException,
+    StaleElementReferenceException
 
 )
 import logging

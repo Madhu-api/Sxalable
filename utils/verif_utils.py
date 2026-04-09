@@ -273,16 +273,6 @@ def verify_successful_signin(driver, workspace, email, pwd, db_config, ssh_confi
         return False
 
 
-import logging
-from selenium.common.exceptions import (
-    TimeoutException,
-    NoSuchElementException,
-    ElementClickInterceptedException,
-    StaleElementReferenceException,
-    WebDriverException
-)
-
-
 def is_button_clickable(driver, xpath, timeout=10):
     """
     Extensive check to verify if a button is ready for interaction.

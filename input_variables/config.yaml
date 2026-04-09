@@ -75,6 +75,7 @@ user:
      invalid_card_number: "4222 2222 2222 2222"
      invalid_expiry: "12/25"
      cvc: "123"
+     alternative_card_number: "5555 5555 5555 4444"
 
 SxR:
   name: "AutomationRouter"
