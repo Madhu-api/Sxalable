@@ -162,3 +162,47 @@ def get_text_from_xpath(driver, xpath, timeout=10):
     except Exception as e:
         print(f"Error finding element with XPath: {xpath} - {e}")
         return None
+
+
+def navigate_to_tab(driver, tab_name, timeout=10):
+    """
+    Navigates to a specific sidebar or menu tab based on its visible text.
+
+    Args:
+        driver (WebDriver): The Selenium WebDriver instance.
+        tab_name (str): The exact text of the tab (e.g., 'Subscriptions').
+        timeout (int): Seconds to wait for the tab to become clickable.
+
+    Returns:
+        bool: True if navigation was successful, False otherwise.
+
+    Raises:
+        AssertionError: If the tab fails to be found or clicked within the timeout.
+    """
+    # Xpath finds the span with text, then moves to the clickable list item/anchor
+    tab_xpath = f"//span[text()='{tab_name}']/ancestor::li"
+
+    logger.info(f"[STEP] Navigating to '{tab_name}' page")
+
+    try:
+        # Wait until the element is present and clickable
+        element = WebDriverWait(driver, timeout).until(
+            ec.element_to_be_clickable((By.XPATH, tab_xpath))
+        )
+
+        # Perform the click
+        element.click()
+        logger.info(f"[SUCCESS] Navigated to '{tab_name}' page")
+        return True
+
+    except TimeoutException:
+        error_msg = f"FAILED: Tab '{tab_name}' was not clickable within {timeout}s"
+    except NoSuchElementException:
+        error_msg = f"FAILED: Tab '{tab_name}' does not exist in the DOM"
+    except ElementClickInterceptedException:
+        error_msg = f"FAILED: Tab '{tab_name}' is obscured by another element (e.g., a modal/spinner)"
+    except WebDriverException as e:
+        error_msg = f"FAILED: WebDriver error during navigation to '{tab_name}': {str(e)}"
+
+    logger.error(error_msg)
+    raise AssertionError(error_msg)

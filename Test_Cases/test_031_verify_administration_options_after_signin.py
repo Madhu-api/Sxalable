@@ -65,12 +65,11 @@ def test_administration_options_after_signin(driver, config):
     time.sleep(delay)
     logger.info("---Tab Validations---")
     logger.info("[STEP] Validating Organization name in Organization page")
-    org_tab_xpath = "//span[text()='Organizations']/ancestor::li"
+
     org_name_xpath = "//span[contains(@id, 'OrgName')]"
 
-    org_tab = locate_element(driver, (By.XPATH, org_tab_xpath),
-                             click_element=True)
-    assert org_tab is not None, "Tab failed to click"
+    navigate_to_tab(driver, 'Organizations')
+
     time.sleep(delay)
 
     actual_org = get_text_from_xpath(driver, org_name_xpath)
@@ -81,11 +80,8 @@ def test_administration_options_after_signin(driver, config):
 
     logger.info("[STEP] Validating Admin user details in Administration page")
 
-    admin_tab_xpath = "//span[text()='Administration']/ancestor::li"
+    navigate_to_tab(driver, 'Administration')
 
-    admin_tab = locate_element(driver, (By.XPATH, admin_tab_xpath),
-                               click_element=True)
-    assert admin_tab is not None, "Tab failed to click"
     time.sleep(delay)
 
     email_xpath = "//*[local-name()='svg' and @data-testid='EmailOutlinedIcon']/following-sibling::p"

@@ -3,7 +3,12 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as ec
 from selenium.common.exceptions import TimeoutException
 from selenium.common.exceptions import WebDriverException
+from selenium.common.exceptions import (
 
+    NoSuchElementException,
+    ElementClickInterceptedException,
+
+)
 import logging
 import time
 from selenium.webdriver.common.keys import Keys

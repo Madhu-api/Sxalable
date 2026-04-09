@@ -1,4 +1,3 @@
-from utils.imports import *
 from utils.config_utils import *
 
 
@@ -272,3 +271,50 @@ def verify_successful_signin(driver, workspace, email, pwd, db_config, ssh_confi
     except Exception as e:
         logger.error(f"[CRITICAL] Unexpected System Error during sign-in: {str(e)} ❌")
         return False
+
+
+import logging
+from selenium.common.exceptions import (
+    TimeoutException,
+    NoSuchElementException,
+    ElementClickInterceptedException,
+    StaleElementReferenceException,
+    WebDriverException
+)
+
+
+def is_button_clickable(driver, xpath, timeout=10):
+    """
+    Extensive check to verify if a button is ready for interaction.
+    Logs specific failure reasons to help with debugging.
+    """
+    try:
+        WebDriverWait(driver, timeout).until(
+            ec.element_to_be_clickable((By.XPATH, xpath))
+        )
+        logger.info(f"Element is clickable: {xpath}")
+        return True
+
+    except TimeoutException:
+        logger.error(f"FAILED: Element not clickable within {timeout}s: {xpath}")
+
+    except NoSuchElementException:
+        logger.error(f"FAILED: Element does not exist in DOM: {xpath}")
+
+    except ElementClickInterceptedException:
+        # This happens if a spinner or modal is covering the button
+        logger.error(f"FAILED: Element is obscured by another layer: {xpath}")
+
+    except StaleElementReferenceException:
+        # This happens if the page refreshes/updates while checking
+        logger.warning(f"RETRYING: Element went stale: {xpath}")
+        # A simple recursive call or a second attempt often fixes staleness
+        return is_button_clickable(driver, xpath, timeout)
+
+    except WebDriverException as e:
+        logger.error(f"FAILED: Internal WebDriver error occurred: {str(e)}")
+
+    except Exception as e:
+        logger.error(f"FAILED: An unexpected error occurred: {str(e)}")
+
+    return False
