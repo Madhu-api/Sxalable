@@ -1,8 +1,0 @@
-2026-04-01 22:10:08 [INFO] ====== WebDriver manager ======
-2026-04-01 22:10:09 [INFO] Get LATEST chromedriver version for google-chrome
-2026-04-01 22:10:09 [INFO] Get LATEST chromedriver version for google-chrome
-2026-04-01 22:10:09 [INFO] Driver [C:\Users\madhusudhanan\.wdm\drivers\chromedriver\win64\146.0.7680.165\chromedriver-win32/chromedriver.exe] found in cache
-2026-04-01 22:10:10 [INFO] [STEP] Opening URL: https://stage.sxalable.io/
-2026-04-01 22:10:47 [INFO] [SUCCESS] Opened URL: https://stage.sxalable.io/
-2026-04-01 22:10:47 [INFO] [STEP] Locating element: ('xpath', "/input[contains(@placeholder,'Workspace')]")
-2026-04-01 22:10:57 [ERROR] [TIMEOUT] Element ('xpath', "/input[contains(@placeholder,'Workspace')]") not found/clickable within 10s
