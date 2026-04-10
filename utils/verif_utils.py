@@ -104,9 +104,11 @@ def verify_element_absent(driver, locator, timeout=5):
         WebDriverWait(driver, timeout).until_not(
             ec.presence_of_element_located(locator)
         )
+        logger.info(f"[SUCCESS] element {locator} is absent")
         return True
     except TimeoutException:
         # If it's still there after the timeout, return False
+        logger.error(f"[FAILURE] Element {locator} is still present after {timeout}s wait.")
         return False
 
 

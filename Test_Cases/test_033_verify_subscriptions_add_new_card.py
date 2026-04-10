@@ -51,16 +51,19 @@ def test_subscriptions_add_new_card(driver, config):
 
     three_dots_button_xpath = "//p[text()='Payment Method']/following-sibling::button"
 
+    # Verify 3 dots button clickable
     click_status = is_button_clickable(driver, three_dots_button_xpath)
     assert click_status, "Payment method 3 dots not clickable"
     logger.info("[SUCCESS] Payment method 3 dots clickable")
     time.sleep(delay)
 
+    # Click 3 dots button
     three_dots_button = locate_element(driver, (By.XPATH, three_dots_button_xpath), click_element=True)
     assert three_dots_button, "Payment method 3 dots not clicked"
     logger.info("[SUCCESS] Payment method 3 dots clicked")
     time.sleep(delay)
 
+    # Clicking Add card
     add_card_xpath = "//li[contains(., 'Add Card')]"
     add_card = locate_element(driver, (By.XPATH, add_card_xpath), click_element=True)
     assert add_card, "Add card button not clicked"
@@ -73,6 +76,7 @@ def test_subscriptions_add_new_card(driver, config):
     assert text_found, "'Add Payment Method' was NOT displayed in the page as expected"
     logger.info("[SUCCESS] 'Add Payment Method' was displayed in the page as expected")
 
+    # Entering card Details into the form
     logger.info(f"[STEP] Entering card Details into the form...")
 
     try:
@@ -107,7 +111,7 @@ def test_subscriptions_add_new_card(driver, config):
                 logger.error(f"[CRITICAL] Error at Step {i + 1} ({step['name']}): {str(e)}")
                 assert False
 
-            # 2. CLICK ADD
+        # 2. CLICK ADD
         logger.info(f"[SUCCESS] Card details entered, clicking Add button...")
         add_btn = WebDriverWait(driver, 10).until(ec.element_to_be_clickable((By.XPATH, add_button_xpath)))
         # JS click is safer if the 'Add' button is near the bottom of the screen
@@ -119,6 +123,7 @@ def test_subscriptions_add_new_card(driver, config):
         assert False
 
     time.sleep(15)
+    # Verify new card on the page
     logger.info(f"[STEP] Verify new card on the page...")
 
     logger.info("[STEP] Verify Card details is correct")

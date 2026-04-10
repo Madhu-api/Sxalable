@@ -125,6 +125,6 @@ def test_signin_cannot_deploy_SxR_no_subscription(driver, config):
     deleted_item_xpath = f"//p[@title='{router_name}']"
 
     is_absent = verify_element_absent(driver, (By.XPATH, deleted_item_xpath))
-    assert is_absent, "Router '{router_name}' validation failure in SxR page after deletion"
-    logger.info(" Router '{router_name}' not found on SxR page after deletion as expected ✅")
+    assert is_absent, f"Router '{router_name}' validation failure in SxR page after deletion"
+    logger.info(f" Router '{router_name}' not found on SxR page after deletion as expected ✅")
     time.sleep(delay)
